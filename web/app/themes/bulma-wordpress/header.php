@@ -63,4 +63,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="section">
     <div class="container">
-        <div class="columns"><div class="column is-three-quarters">
+        <div class="columns">
+            <div class="column is-three-quarters">
