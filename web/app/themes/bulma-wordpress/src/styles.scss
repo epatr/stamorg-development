@@ -1,0 +1,112 @@
+/*
+Theme Name: Bulma+Wordpress
+Theme URI: http://ukyrgf.com
+Description: A lightweight theme for displaying flyers
+Author: Eric 'https' Patrick
+Author URI: https://epatr.com
+*/
+
+// ^ Need that to be first for Wordpress
+
+@import "sass/override-variables";
+
+// Add the rest of Bulma
+@import "../node_modules/bulma/bulma";
+
+@import "sass/font-awesome";
+
+// .content { 
+//     padding: 0 1em;
+// }
+
+body {
+    font-display: swap;
+}
+.section {
+    padding-top: 5.25rem;
+}
+
+p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    word-break: break all;
+}
+
+.article {
+    margin-bottom: 2em;
+}
+
+.title {
+}
+.subtitle {
+}
+
+body > .header h2 {
+    font-weight: 400;
+    font-family: $family-headers;
+    text-transform: uppercase;
+}
+
+h3.header__motto {
+    margin-bottom: 0;
+}
+.article > h2 {
+    margin-bottom: .25em !important;
+}
+
+.article__metadata {
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    color: $grey;
+    font-size: $size-7;
+    
+    ul.post-categories {
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        li {
+            display: inline;
+        }
+    }
+}
+
+.menu-list li {
+    list-style-type: none;
+}
+
+
+.navbar {
+    @extend .hero.is-dark.is-bold;
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    .navbar-item {
+        color: #fff;
+    }
+    .navbar-burger {
+        &:hover {
+            background-color: inherit;
+        }
+        span {
+                background-color: #fff;
+            }
+    }
+    
+    
+    &-start {
+    }
+}
+
+.navbar-brand, .navbar-menu {
+    .navbar-title {
+        font-weight: 700;
+    }
+    font-family: $family-headers;
+    text-transform: uppercase;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}

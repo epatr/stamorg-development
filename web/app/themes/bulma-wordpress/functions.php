@@ -1,0 +1,31 @@
+<?php
+
+if (!function_exists('bulmawordpress_setup')) :
+function bulmawordpress_setup() {
+        add_theme_support('post-thumbnails');
+        add_theme_support('post-formats', array('aside', 'gallery', 'quote', 'image', 'video', 'audio'));
+        add_theme_support('title-tag');
+        
+        register_nav_menus(array(
+                'primary' => 'Primary Menu'
+            ));
+        
+        // Add support for flyer thumbnails
+        add_image_size('flyer-thumb', 240, 360, true);
+        add_image_size('flyer-tiny', 75, 150);
+    }
+endif;
+add_action('after_setup_theme', 'bulmawordpress_setup');
+
+// Add stuff to the head
+function bulmawordpress_scripts() {
+        wp_enqueue_style('google-fonts-merriweather', '//fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Oswald:300,400,700', array(), null);
+        wp_enqueue_style('stylesheet', get_template_directory_uri() . '/style.css', array(), null);
+}
+add_action('wp_enqueue_scripts', 'bulmawordpress_scripts');
+
+// Control the read more string
+function bulmawordpress_excerpt_more( $more ) {
+    return '...';
+}
+add_filter( 'excerpt_more', 'bulmawordpress_excerpt_more' );
