@@ -25,7 +25,13 @@ function bulmawordpress_scripts() {
 add_action('wp_enqueue_scripts', 'bulmawordpress_scripts');
 
 // Control the read more string
-function bulmawordpress_excerpt_more( $more ) {
-    return '...';
+function bulmawordpress_excerpt_more($more) {
+    return ' ... ' , $more;
 }
 add_filter( 'excerpt_more', 'bulmawordpress_excerpt_more' );
+
+// Disable emoji support
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
+remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+remove_action( 'admin_print_styles', 'print_emoji_styles' );
