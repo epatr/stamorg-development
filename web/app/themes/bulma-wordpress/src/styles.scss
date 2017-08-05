@@ -98,6 +98,9 @@ h3.header__motto {
     // }
     &-end {
         align-items: center;
+        .field {
+            padding: 0 1em;
+        }
     }
 }
 

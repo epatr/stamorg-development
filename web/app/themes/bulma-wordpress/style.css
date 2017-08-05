@@ -7613,6 +7613,8 @@ h3.header__motto {
 
 .navbar-end {
   align-items: center; }
+  .navbar-end .field {
+    padding: 0 1em; }
 
 .navbar-brand, .navbar-menu {
   font-family: "Oswald", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
