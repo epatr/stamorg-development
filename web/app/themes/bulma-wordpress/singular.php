@@ -16,13 +16,6 @@ if (have_posts()) :
 
 </article>
 
-    <?php if ( comments_open() || get_comments_number() ) : ?>
-        <hr>
-        <div class="content">
-            <?php comments_template(); ?>
-        </div>
-    <?php endif; ?>
-
 <?php
     endwhile;
 endif;
