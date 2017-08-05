@@ -26,7 +26,7 @@ add_action('wp_enqueue_scripts', 'bulmawordpress_scripts');
 
 // Control the read more string
 function bulmawordpress_excerpt_more($more) {
-    return ' ... ' , $more;
+    return ' ... ';
 }
 add_filter( 'excerpt_more', 'bulmawordpress_excerpt_more' );
 
