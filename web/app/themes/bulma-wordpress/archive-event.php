@@ -11,7 +11,7 @@ $todaysDate = date('Ymd');
 $eventQuery = array(
     'posts_per_page' => -1,
     'post_type' => 'event',
-    'meta_key' => 'event_date'
+    'meta_key' => 'event_date',
     'meta_query' => array(
         array(
             'key' => 'event_date',
