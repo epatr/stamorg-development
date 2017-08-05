@@ -4,10 +4,3 @@
 <div class="article__content">
     <?php the_content(); ?>
 </div>
-
-<?php if ( comments_open() || get_comments_number() ) : ?>
-    <hr>
-    <div class="content">
-        <?php comments_template(); ?>
-    </div>
-<?php endif; ?>
