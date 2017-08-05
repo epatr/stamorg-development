@@ -15,7 +15,7 @@ $eventQuery = array(
     'meta_query' => array(
         array(
             'key' => 'event_date',
-            'value' => $todaysDate;
+            'value' => $todaysDate,
             'type' => 'NUMERIC',
             'compare' => '>='
         )
