@@ -8,8 +8,8 @@ get_header();
     <h1><? the_title(); ?></h1>
 
 <?php
-if (have_posts()) {
-    while (have_posts()) {
+if (have_posts()) :
+    while (have_posts()) :
         the_post();
 ?>
 
@@ -18,8 +18,18 @@ if (have_posts()) {
 </article>
         
 <?php
-    }
-}
+    endwhile;
+?>
+<nav class="level">
+	<div class="level-item has-text-centered">
+		<?php next_posts_link( 'Previous' ); ?>
+    </div>
+    <div class="level-item has-text-centered">
+		<?php previous_posts_link( 'Next' ); ?>
+	</div>
+</nav>
+<?
+endif;
 
 get_footer();
 

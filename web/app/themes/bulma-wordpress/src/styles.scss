@@ -96,9 +96,13 @@ h3.header__motto {
     
     // &-start {
     // }
+
+    // End of the navbar
     &-end {
+        // Get the search box to valign middle
         align-items: center;
         .field {
+            // Add padding to the sides of the search box input
             padding: 0 1em;
         }
     }

@@ -4,16 +4,10 @@
 <div class="article__content">
     <?php the_content(); ?>
 </div>
-    
-<div class="content">
-<?php if ( comments_open() || get_comments_number() ) :
-    comments_template();
-endif; ?>
-</div>
 
-<hr>
-
-<div class="content">
-    <?php the_meta(); ?>
-    <pre><?php var_dump($post); ?></pre>
-</div>
+<?php if ( comments_open() || get_comments_number() ) : ?>
+    <hr>
+    <div class="content">
+        <?php comments_template(); ?>
+    </div>
+<?php endif; ?>
