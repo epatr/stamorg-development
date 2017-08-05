@@ -17,6 +17,7 @@
                     wp_list_comments( array(
                         'short_ping'  => true,
                         'avatar_size' => 50,
+                        'style' => 'div'
                     ) );
                     ?>
                 </div>
