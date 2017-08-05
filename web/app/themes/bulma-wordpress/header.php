@@ -54,9 +54,16 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="navbar-menu" id="navMenu">
         <div class="navbar-start">
             <a href="/venue/" class="navbar-item">Venues</a>
-            <a href="#" class="navbar-item">Submit Show</a>
-            <a href="#" class="navbar-item">Help</a>
+            <a href="/artist/" class="navbar-item">Artists</a>
             <a href="/about/" class="navbar-item">About</a>
+        </div>
+        <div class="navbar-end">
+            <div class="field is-horizontal">
+                <p class="control has-icons-left">
+                    <input type="text" class="input is-medium" for="s">
+                    <span class="icon is-normal is-left"><i class="fa fa-search"></i></span>
+                </p>
+            </div>
         </div>
     </div>
 </nav>

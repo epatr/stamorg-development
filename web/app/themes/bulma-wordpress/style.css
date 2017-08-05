@@ -4826,10 +4826,10 @@ label.panel-block {
       background-color: #363636;
       border-color: #363636;
       color: whitesmoke; }
-    .hero.is-light.is-bold {
+    .hero.is-light.is-bold, .navbar {
       background-image: linear-gradient(141deg, #dfd8d9 0%, whitesmoke 71%, white 100%); }
       @media screen and (max-width: 768px) {
-        .hero.is-light.is-bold .nav-menu {
+        .hero.is-light.is-bold .nav-menu, .navbar .nav-menu {
           background-image: linear-gradient(141deg, #dfd8d9 0%, whitesmoke 71%, white 100%); } }
     @media screen and (max-width: 768px) {
       .hero.is-light .nav-toggle span {
@@ -4880,10 +4880,10 @@ label.panel-block {
       background-color: whitesmoke;
       border-color: whitesmoke;
       color: #363636; }
-    .hero.is-dark.is-bold, .navbar {
+    .hero.is-dark.is-bold {
       background-image: linear-gradient(141deg, #1f191a 0%, #363636 71%, #46403f 100%); }
       @media screen and (max-width: 768px) {
-        .hero.is-dark.is-bold .nav-menu, .navbar .nav-menu {
+        .hero.is-dark.is-bold .nav-menu {
           background-image: linear-gradient(141deg, #1f191a 0%, #363636 71%, #46403f 100%); } }
     @media screen and (max-width: 768px) {
       .hero.is-dark .nav-toggle span {
@@ -7575,9 +7575,6 @@ label.panel-block {
 body {
   font-display: swap; }
 
-.section {
-  padding-top: 5.25rem; }
-
 p {
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -7613,17 +7610,6 @@ h3.header__motto {
 
 .menu-list li {
   list-style-type: none; }
-
-.navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 1001; }
-  .navbar .navbar-item {
-    color: #fff; }
-  .navbar .navbar-burger:hover {
-    background-color: inherit; }
-  .navbar .navbar-burger span {
-    background-color: #fff; }
 
 .navbar-brand, .navbar-menu {
   font-family: "Oswald", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;

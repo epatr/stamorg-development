@@ -22,9 +22,9 @@ Author URI: https://epatr.com
 body {
     font-display: swap;
 }
-.section {
-    padding-top: 5.25rem;
-}
+// .section {
+//      padding-top: 5.25rem;
+// }
 
 p {
     overflow-wrap: break-word;
@@ -38,10 +38,10 @@ p {
     margin-bottom: 2em;
 }
 
-.title {
-}
-.subtitle {
-}
+// .title {
+// }
+// .subtitle {
+// }
 
 body > .header h2 {
     font-weight: 400;
@@ -76,27 +76,26 @@ h3.header__motto {
     list-style-type: none;
 }
 
-
 .navbar {
-    @extend .hero.is-dark.is-bold;
-    position: fixed;
-    width: 100%;
-    z-index: 1001;
-    .navbar-item {
-        color: #fff;
-    }
-    .navbar-burger {
-        &:hover {
-            background-color: inherit;
-        }
-        span {
-                background-color: #fff;
-            }
-    }
+    @extend .hero.is-light.is-bold;
+    // position: fixed;
+    // width: 100%;
+    // z-index: 1001;
+    // .navbar-item {
+    //     color: #fff;
+    // }
+    // .navbar-burger {
+    //     &:hover {
+    //         background-color: inherit;
+    //     }
+    //     span {
+    //             background-color: #fff;
+    //         }
+    // }
     
     
-    &-start {
-    }
+    // &-start {
+    // }
 }
 
 .navbar-brand, .navbar-menu {
