@@ -21,18 +21,27 @@ $eventQuery = array(
         )
     )
 );
+
+$the_query = new WP_Query($eventQuery);
+
+if ($the_query->have_posts()) : 
+    while ($the_query->have_posts()) :
+      $the_query(the_post());
 ?>
 
         <?php get_template_part('templates/li', get_post_format()); ?>
 
-</article>
-        
 <?php
+
     endwhile;
 
-    get_template_part('templates/snippets/pagination');
-    
 endif;
+
+?>
+
+</article>
+
+<?php 
 
 get_footer();
 
