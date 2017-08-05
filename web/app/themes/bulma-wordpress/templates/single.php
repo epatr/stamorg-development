@@ -6,3 +6,8 @@
 <div class="article__content">
     <?php the_content(); ?>
 </div>
+<? if ( is_singular('venue')) : ?>
+<div class="section">
+    <?php the_meta(); ?>
+</div>
+<?php endif; ?>
