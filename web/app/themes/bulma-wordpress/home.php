@@ -12,7 +12,9 @@ if (have_posts()) :
         the_post();
 ?>
 
+        <div class="content">
         <?php get_template_part('templates/summary', get_post_format()); ?>
+        </div>
 
 </article>
         
