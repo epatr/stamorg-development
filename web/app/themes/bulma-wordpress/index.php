@@ -5,7 +5,6 @@ get_header();
 ?>
 
 <article>
-    <h1><? wp_title(); ?></h1>
 
 <?php
 if (have_posts()) :
