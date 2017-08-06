@@ -7608,6 +7608,9 @@ h3.header__motto {
     .article__metadata ul.post-categories li {
       display: inline; }
 
+.article__content {
+  padding-bottom: 3rem; }
+
 .menu-list li {
   list-style-type: none; }
 
