@@ -13,23 +13,16 @@ if (have_posts()) :
 ?>
 
         <div class="section">
-        <?php get_template_part('templates/summary', get_post_format()); ?>
+        <?php get_template_part('templates/views/summary', get_post_format()); ?>
         </div>
 
 </article>
         
 <?php
     endwhile;
-?>
-<nav class="level">
-	<div class="level-item has-text-centered">
-		<?php next_posts_link( 'Previous' ); ?>
-    </div>
-    <div class="level-item has-text-centered">
-		<?php previous_posts_link( 'Next' ); ?>
-	</div>
-</nav>
-<?
+
+    get_template_part('templates/snippets/pagination');
+
 endif;
 
 get_footer();

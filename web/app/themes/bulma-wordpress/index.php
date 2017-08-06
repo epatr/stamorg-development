@@ -12,7 +12,7 @@ if (have_posts()) :
         the_post();
 ?>
 
-        <?php get_template_part('templates/li', get_post_format()); ?>
+        <?php get_template_part('templates/views/li', get_post_format()); ?>
 
 </article>
         

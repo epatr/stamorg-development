@@ -12,12 +12,14 @@ if (have_posts()) :
         the_post();
 ?>
 
-        <?php get_template_part('templates/single', get_post_format()); ?>
+        <?php get_template_part('templates/views/single', get_post_format()); ?>
 
 </article>
 
 <?php
+
     endwhile;
+
 endif;
 
 get_footer();
