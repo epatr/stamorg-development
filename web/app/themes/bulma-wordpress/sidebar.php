@@ -4,20 +4,22 @@
 
 <div>
 
-    <?php 
-    
-    $eventQuery = include('./templates/queries/events.php');
+<?php 
 
-    $the_query = new WP_Query($eventQuery);
+$eventQuery = include('./templates/queries/events.php');
 
-    if ($the_query->have_posts()) : 
-        while ($the_query->have_posts()) :
-            $the_query->the_post();
+$the_query = new WP_Query($eventQuery);
 
-            get_template_part('templates/views/li', get_post_format());
+if ($the_query->have_posts()) : 
+    while ($the_query->have_posts()) :
+        $the_query->the_post();
 
-        endwhile;
+        get_template_part('templates/views/li', get_post_format());
 
-    endif;
+    endwhile;
+
+endif;
+
+?>
 
 </div>
