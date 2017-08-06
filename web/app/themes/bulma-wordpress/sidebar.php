@@ -1,13 +1,13 @@
 
 <div class="content">
 
-    <p class="menu-label">Upcoming</p>
+    <p class="menu-label">Upcoming Shows</p>
 
     <ul class="menu-list">
     <?php 
 
     //$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
-    $eventQuery = bulmawordpress_event_query('events', 1);
+    $eventQuery = bulmawordpress_event_query('events', 5);
 
     $the_query = new WP_Query($eventQuery);
 
