@@ -7,7 +7,7 @@
     <?php 
 
     //$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
-    $eventQuery = bulmawordpress_event_query('events')
+    $eventQuery = bulmawordpress_event_query('events', 1);
 
     $the_query = new WP_Query($eventQuery);
 
