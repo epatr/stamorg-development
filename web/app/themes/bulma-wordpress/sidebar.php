@@ -6,7 +6,7 @@
 
 <?php 
 
-$eventQuery = include('./templates/queries/events.php');
+$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
 
 $the_query = new WP_Query($eventQuery);
 
