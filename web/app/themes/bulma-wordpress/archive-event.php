@@ -2,11 +2,7 @@
 
 get_header();
 
-?>
 
-<article>
-
-<?php
 $todaysDate = date('Ymd');
 $eventQuery = array(
     'posts_per_page' => -1,
@@ -28,22 +24,13 @@ $the_query = new WP_Query($eventQuery);
 
 if ($the_query->have_posts()) : 
     while ($the_query->have_posts()) :
-      $the_query->the_post();
-?>
+        $the_query->the_post();
 
-        <?php get_template_part('templates/li', get_post_format()); ?>
-
-<?php
+        get_template_part('templates/li', get_post_format());
 
     endwhile;
 
 endif;
-
-?>
-
-</article>
-
-<?php 
 
 get_footer();
 
