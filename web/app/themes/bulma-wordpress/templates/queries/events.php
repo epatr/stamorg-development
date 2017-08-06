@@ -2,7 +2,7 @@
 
 $todaysDate = date('Ymd');
 return array(
-    'posts_per_page' => 5,
+    'posts_per_page' => $variables,
     'post_type' => 'event',
 	'order' => 'ASC',
 	'orderby' => 'event_date',

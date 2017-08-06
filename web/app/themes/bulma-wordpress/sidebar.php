@@ -6,7 +6,8 @@
     <ul class="menu-list">
     <?php 
 
-    $eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
+    //$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
+    $eventQuery = bulmawordpress_event_query('events')
 
     $the_query = new WP_Query($eventQuery);
 
