@@ -40,5 +40,5 @@ remove_action( 'admin_print_styles', 'print_emoji_styles' );
 // Testing the Upcoming Events query include
 
 function bulmawordpress_event_query($file, $variables) {
-    return include (TEMPLATEPATH . '/' . $file . '.php');
+    return include (TEMPLATEPATH . '/templates/queries/' . $file . '.php');
 }
