@@ -1,25 +1,25 @@
 
+<div class="content">
 
-<h3>Upcoming</h3>
+    <p class="menu-label">Upcoming</p>
 
-<div>
+    <ul class="menu-list">
+    <?php 
 
-<?php 
+    $eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
 
-$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
+    $the_query = new WP_Query($eventQuery);
 
-$the_query = new WP_Query($eventQuery);
+    if ($the_query->have_posts()) : 
+        while ($the_query->have_posts()) :
+            $the_query->the_post();
 
-if ($the_query->have_posts()) : 
-    while ($the_query->have_posts()) :
-        $the_query->the_post();
+            get_template_part('templates/views/li', get_post_format());
 
-        get_template_part('templates/views/li', get_post_format());
+        endwhile;
 
-    endwhile;
+    endif;
 
-endif;
-
-?>
-
+    ?>
+    </ul>
 </div>
