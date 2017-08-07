@@ -11,4 +11,12 @@
             ?>
     </div>
 
+    <div class="menu">
+        <p class="menu-label">Latest Posts</p>
+
+            <?php 
+            get_template_part('templates/snippets/upcoming-shows');
+            ?>
+    </div>
+
 </div>
