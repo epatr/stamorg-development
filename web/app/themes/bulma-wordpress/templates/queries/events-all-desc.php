@@ -5,5 +5,6 @@ return array(
     'posts_per_page' => -1,
     'post_type' => 'event',
 	'order' => 'DESC',
-	'orderby' => 'event_date'
+	'orderby' => 'event_date',
+    'meta_key' => 'event_date'
 );
