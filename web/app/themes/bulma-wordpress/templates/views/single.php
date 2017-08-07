@@ -3,6 +3,7 @@
 <?php if ( !is_page() && !is_singular('event') && !is_singular('venue') ) : ?>
     <div class="article__metadata">Posted <span><?php echo get_the_date(); ?></span> by <?php the_author_posts_link(); ?> <?php if(get_the_category()): echo ' in ' , the_category(); endif; ?></div>
 <?php endif; ?>
+
 <div class="article__content">
     <?php the_content(); ?>
 </div>
@@ -18,8 +19,9 @@
     <div class="message-header">Event Information</div>
     <div class="message-body">
         <ul>
-            <?php if ($post->event_date) : $eventDate = DateTime::createFromFormat('Ymd', $post->event_date)->format('l, F jS'); ?><li><?= $eventDate ?></li> <?php endif; ?>
-            <?php if ($post->website_url) : ?><li><a href="<?php echo get_post_meta(get_the_ID(), 'website_url', true); ?>" target="_blank"><?php echo get_post_meta($post->ID, 'website_url', true); ?></a></li> <?php endif; ?>
+            <li>Date: <?php if ($post->event_date) : $eventDate = DateTime::createFromFormat('Ymd', $post->event_date)->format('l, F jS'); ?><?= $eventDate ?><?php endif; if ($get_post_meta($post->ID, 'start_time', true)) : echo $get_post_meta($post->ID, 'start_time', true); endif; ?></li>
+            <?php if ($post->website_url) : ?><li>More Information: <a href="<?php echo get_post_meta(get_the_ID(), 'website_url', true); ?>" target="_blank"><?php echo get_post_meta($post->ID, 'website_url', true); ?></a></li> <?php endif; ?>
+            <?php if ($get_post_meta($post->ID, 'start_time', true)) : ?><li>Cost: <?= get_post_meta('start_time'); ?></li><?php endif; ?>
         </ul>
     </div>
 </div>
