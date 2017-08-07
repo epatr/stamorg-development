@@ -1,14 +1,14 @@
 
 <div class="content">
 
-    <div class="menu">
+    <aside class="menu">
         <p class="menu-label">Upcoming Shows</p>
         <ul class="menu-list">
             <?php 
                 get_template_part('templates/snippets/upcoming-shows');
             ?>
         </ul>
-    </div>
+    </aside>
 
     <aside class="menu">
         <p class="menu-label">St. Augustine Music Project</p>

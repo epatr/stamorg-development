@@ -92,6 +92,10 @@ ul.menu-wp_nav_menu {
     margin-left: 0;
 }
 
+aside.menu {
+    margin-bottom: 3em;
+}
+
 .navbar {
     @extend .hero.is-light.is-bold;
     // position: fixed;

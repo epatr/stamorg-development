@@ -7621,6 +7621,9 @@ h3.header__motto {
 .menu ul {
   margin-left: 0; }
 
+aside.menu {
+  margin-bottom: 3em; }
+
 .navbar-end {
   align-items: center; }
   .navbar-end .field {
