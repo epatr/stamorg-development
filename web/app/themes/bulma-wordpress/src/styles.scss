@@ -88,6 +88,7 @@ h3.header__motto {
 .menu-wp_nav_menu {
     ul {
         @extend .menu-list;
+        margin-left: none;
     }
 }
 
