@@ -85,6 +85,12 @@ h3.header__motto {
     list-style-type: none;
 }
 
+.menu-wp_nav_menu {
+    ul {
+        @extend .menu-list;
+    }
+}
+
 .navbar {
     @extend .hero.is-light.is-bold;
     // position: fixed;
