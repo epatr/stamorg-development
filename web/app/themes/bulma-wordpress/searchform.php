@@ -8,7 +8,7 @@
             <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
         </div>
         <div class="control">
-            <button type="submit" class="button is-info">Search</button>
+            <button type="submit" class="button">Search</button>
         </div>
 
     </div>
