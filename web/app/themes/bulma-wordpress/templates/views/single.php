@@ -14,8 +14,6 @@
 </div>
 
 <h3>Upcoming Events</h3>
-$post->ID
-
     <?php 
 
     //$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
@@ -32,6 +30,8 @@ $post->ID
         endwhile;
 
     endif;
+
+    wp_reset_query();
 
     ?>
 

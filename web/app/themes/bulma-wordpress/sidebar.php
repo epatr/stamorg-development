@@ -21,6 +21,8 @@
 
     endif;
 
+    wp_reset_query();
+
     ?>
     </ul>
 </div>

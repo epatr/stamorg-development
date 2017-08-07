@@ -4,7 +4,7 @@
 $todaysDate = date('Ymd');
 
 // This file should have been called in a function with $variables as an integer
-$event_query = array(
+return array(
 	'posts_per_page'	=> -1,
 	'post_type'			=> 'event',
 	'order' => 'ASC',
