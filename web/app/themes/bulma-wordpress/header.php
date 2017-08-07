@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <nav class="navbar is-mobile">
     <div class="navbar-brand">
         <a href="/" class="navbar-item navbar-title">stamusic.org</a>
-        <a href="/event/" class="navbar-item">Events</a>
+        <a href="/event/" class="navbar-item">Shows</a>
         <div class="navbar-burger" data-target="navMenu">
             <span></span>
             <span></span>
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="navbar-menu" id="navMenu">
         <div class="navbar-start">
             <a href="/venue/" class="navbar-item">Venues</a>
-            <a href="/artist/" class="navbar-item">Artists</a>
+            <a href="/artist/" class="navbar-item">Bands</a>
             <a href="/about/" class="navbar-item">About</a>
         </div>
         <div class="navbar-end">
