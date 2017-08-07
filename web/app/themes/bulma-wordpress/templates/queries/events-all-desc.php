@@ -6,5 +6,4 @@ return array(
     'post_type' => 'event',
 	'order' => 'DESC',
 	'orderby' => 'event_date'
-    )
 );

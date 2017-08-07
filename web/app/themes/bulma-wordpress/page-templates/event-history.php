@@ -12,7 +12,7 @@ get_header();
 
 <?php
 
-$eventQuery = bulmawordpress_event_query('events-all-desc');
+$eventQuery = bulmawordpress_event_query('events-all-desc', null);
 
 $the_query = new WP_Query($eventQuery);
 
