@@ -96,8 +96,10 @@ aside.menu {
     margin-bottom: 3em;
 }
 
-.current-menu-item a {
+.current-menu-item > a {
     @extend .is-active;
+    // background-color: #3273dc;
+    // color: #fff;
 }
 
 .navbar {
