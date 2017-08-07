@@ -19,9 +19,9 @@
     <div class="message-header">Event Information</div>
     <div class="message-body">
         <ul>
-            <li>Date: <?php if ($post->event_date) : $eventDate = DateTime::createFromFormat('Ymd', $post->event_date)->format('l, F jS'); ?><?= $eventDate ?><?php endif; if ($get_post_meta($post->ID, 'start_time', true)) : echo $get_post_meta($post->ID, 'start_time', true); endif; ?></li>
+            <li>Date: <?php if ($post->event_date) : $eventDate = DateTime::createFromFormat('Ymd', $post->event_date)->format('l, F jS'); ?><?= $eventDate ?><?php endif; if (get_post_meta($post->ID, 'start_time', true)) : echo get_post_meta($post->ID, 'start_time', true); endif; ?></li>
             <?php if ($post->website_url) : ?><li>More Information: <a href="<?php echo get_post_meta(get_the_ID(), 'website_url', true); ?>" target="_blank"><?php echo get_post_meta($post->ID, 'website_url', true); ?></a></li> <?php endif; ?>
-            <?php if ($get_post_meta($post->ID, 'start_time', true)) : ?><li>Cost: <?= get_post_meta('start_time'); ?></li><?php endif; ?>
+            <?php if (get_post_meta($post->ID, 'start_time', true)) : ?><li>Cost: <?= get_post_meta('start_time'); ?></li><?php endif; ?>
         </ul>
     </div>
 </div>
