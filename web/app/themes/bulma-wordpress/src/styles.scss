@@ -85,11 +85,9 @@ h3.header__motto {
     list-style-type: none;
 }
 
-.menu-wp_nav_menu {
-    ul {
+ul.menu-wp_nav_menu {
         @extend .menu-list;
         margin-left: 0;
-    }
 }
 
 .navbar {

@@ -2881,20 +2881,20 @@ a.dropdown-item {
   .menu.is-large {
     font-size: 1.5rem; }
 
-.menu-list, .menu-wp_nav_menu ul {
+.menu-list, ul.menu-wp_nav_menu {
   line-height: 1.25; }
-  .menu-list a, .menu-wp_nav_menu ul a {
+  .menu-list a, ul.menu-wp_nav_menu a {
     border-radius: 2px;
     color: #4a4a4a;
     display: block;
     padding: 0.5em 0.75em; }
-    .menu-list a:hover, .menu-wp_nav_menu ul a:hover {
+    .menu-list a:hover, ul.menu-wp_nav_menu a:hover {
       background-color: whitesmoke;
       color: #363636; }
-    .menu-list a.is-active, .menu-wp_nav_menu ul a.is-active {
+    .menu-list a.is-active, ul.menu-wp_nav_menu a.is-active {
       background-color: #3273dc;
       color: #fff; }
-  .menu-list li ul, .menu-wp_nav_menu ul li ul {
+  .menu-list li ul, ul.menu-wp_nav_menu li ul {
     border-left: 1px solid #dbdbdb;
     margin: 0.75em;
     padding-left: 0.75em; }
@@ -7615,10 +7615,10 @@ h3.header__motto {
   height: 20em;
   overflow: hidden; }
 
-.menu-list li, .menu-wp_nav_menu ul li {
+.menu-list li, ul.menu-wp_nav_menu li {
   list-style-type: none; }
 
-.menu-wp_nav_menu ul {
+ul.menu-wp_nav_menu {
   margin-left: 0; }
 
 .navbar-end {
