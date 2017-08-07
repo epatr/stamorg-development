@@ -10,7 +10,7 @@
         </ul>
     </div>
 
-    <div class="menu">
+    <aside class="menu">
         <p class="menu-label">St. Augustine Music Project</p>
 
             <?php wp_nav_menu(array(
@@ -18,6 +18,6 @@
                 'menu_class' => 'menu-wp_nav_menu'
                 )); 
             ?>
-    </div>
+    </aside>
 
 </div>

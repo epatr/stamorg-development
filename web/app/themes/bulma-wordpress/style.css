@@ -7618,7 +7618,7 @@ h3.header__motto {
 .menu-list li, ul.menu-wp_nav_menu li {
   list-style-type: none; }
 
-ul.menu-wp_nav_menu {
+.menu ul {
   margin-left: 0; }
 
 .navbar-end {
