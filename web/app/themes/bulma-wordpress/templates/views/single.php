@@ -29,6 +29,7 @@
         <?php if (get_post_meta($post->ID, 'flyer')) : 
 
         $flyerURL = wp_get_attachment_image($post->flyer, 'large');
+        echo $flyerURL;
             
         endif; ?>
 
