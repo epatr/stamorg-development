@@ -36,7 +36,7 @@ if ($the_query->have_posts()) : ?>
     <?php while ($the_query->have_posts()) :
         $the_query->the_post();
 
-        get_template_part('templates/views/li', get_post_format());
+        get_template_part('templates/views/table-events', get_post_format());
 
     endwhile;
 
