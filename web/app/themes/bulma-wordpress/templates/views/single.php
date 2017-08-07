@@ -18,8 +18,8 @@
     <div class="message-header">Event Information</div>
     <div class="message-body">
         <ul>
-            <?php if (get_post_meta('event_date')) : $eventDate = DateTime::createFromFormat('Ymd', get_post_meta('event_date'))->format('l, F jS'); ?><li><?= $eventDate ?></li> <?php endif; ?>
-            <?php if (get_post_meta('website_url')) : ?><li><a href="<?php get_post_meta('website_url'); ?>" target="_blank"><?php get_post_meta('website_url'); ?></a></li> <?php endif; ?>
+            <?php if ($post->event_date) : $eventDate = DateTime::createFromFormat('Ymd', $post->event_date)->format('l, F jS'); ?><li><?= $eventDate ?></li> <?php endif; ?>
+            <?php if ($post->website_url) : ?><li><a href="<?php get_post_meta($post->ID, 'website_url', true); ?>" target="_blank"><?php get_post_meta($post->ID, 'website_url', true); ?></a></li> <?php endif; ?>
         </ul>
     </div>
 </div>
