@@ -59,10 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
         <div class="navbar-end">
             <div class="field is-horizontal">
-                <p class="control has-icons-left">
-                    <input type="text" class="input is-medium" for="s">
-                    <span class="icon is-normal is-left"><i class="fa fa-search"></i></span>
-                </p>
+            <?php get_search_form(); ?>
             </div>
         </div>
     </div>
