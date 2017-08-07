@@ -28,7 +28,7 @@
 
         <?php if (get_post_meta($post->ID, 'flyer')) : 
 
-            $flyerURL = wp_get_attachment($post->flyer, 'large')
+        $flyerURL = wp_get_attachment($post->flyer, 'large');
             
         endif; ?>
 
