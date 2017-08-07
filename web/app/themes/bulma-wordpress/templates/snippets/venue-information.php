@@ -33,13 +33,26 @@ $the_query = new WP_Query($eventQuery);
 
 if ($the_query->have_posts()) : ?>
 <h3>Upcoming Events</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Bands</th>
+            <th>Venue</th>
+            <th>Cost</th>
+            <th>Flyer</th>
+        </tr>
+    </thead>
     <?php while ($the_query->have_posts()) :
         $the_query->the_post();
 
         get_template_part('templates/views/table-events', get_post_format());
 
-    endwhile;
-
+    endwhile; 
+    ?>
+</table>
+<?php
 endif;
 
 wp_reset_query();
