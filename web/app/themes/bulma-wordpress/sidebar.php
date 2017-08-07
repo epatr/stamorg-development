@@ -7,7 +7,7 @@
         <div class="menu-wp_nav_menu">
             <?php wp_nav_menu(array(
                 'theme_location' => 'primary',
-                'container_class' => 'menu-wp_nav_menu'
+                'menu_class' => 'menu-wp_nav_menu'
                 )); 
             ?>
         </div>
