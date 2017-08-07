@@ -96,6 +96,10 @@ aside.menu {
     margin-bottom: 3em;
 }
 
+.current-menu-item {
+    @extend .is-active;
+}
+
 .navbar {
     @extend .hero.is-light.is-bold;
     // position: fixed;
