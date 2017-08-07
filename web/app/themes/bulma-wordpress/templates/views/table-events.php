@@ -9,7 +9,7 @@
 <tr>
 <td><?= $eventDate; ?></td>
 <td><?= $eventTitle; ?></td>
-<td><?= $eventVenue ?></td>
+<?php if (!$dontDisplayVenue) : ?> <td><?= $eventVenue ?></td> <?php endif; ?>
 <td><?= $eventCost ?></td>
 <td></td>
 
