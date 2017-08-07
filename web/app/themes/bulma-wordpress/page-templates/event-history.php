@@ -10,6 +10,8 @@ get_header();
 
 <article>
 
+<h1><?php the_title(); ?></h1>
+
 <?php
 
 $eventQuery = bulmawordpress_event_query('events-all-desc', null);
