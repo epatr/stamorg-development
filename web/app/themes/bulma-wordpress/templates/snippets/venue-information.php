@@ -4,7 +4,7 @@
       height="450"
       frameborder="0" style="border:0"
       src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB0CBPoeI2IO_ep6mJ6lGrtAjuVS-3nHcQ
-        &q=<?= get_post_meta($eventVenueID, 'address', true); ?>" allowfullscreen>
+        &q=<?= get_post_meta($post->ID, 'address', true); ?>" allowfullscreen>
     </iframe>
 </div>
 
