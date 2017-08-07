@@ -2,6 +2,16 @@
 
 /* Template Name: Event History */
 
+?>
+
+<?php
+get_header();
+?>
+
+<article>
+
+<?php
+
 $eventQuery = bulmawordpress_event_query('events-all-desc');
 
 $the_query = new WP_Query($eventQuery);
@@ -30,3 +40,6 @@ if ($the_query->have_posts()) : ?>
 endif;
 
 wp_reset_query();
+
+
+get_footer();
