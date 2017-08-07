@@ -4,11 +4,11 @@
         <ul>
             <?php if (get_post_meta($post->ID, 'address', true)) : ?><li>Address: <?= get_post_meta($post->ID, 'address', true); ?></li><?php endif; ?>
             <?php if (get_post_meta($post->ID, 'phone', true)) : ?><li>Phone: <?= get_post_meta($post->ID, 'phone', true); ?></li><?php endif; ?>
-            <?php if (get_post_meta($post->ID, 'website_url', true)) : ?><li>website_url: <?= get_post_meta($post->ID, 'website_url', true); ?></li><?php endif; ?>
-            <?php if (get_post_meta($post->ID, 'facebook_url', true)) : ?><li>facebook_url: <?= get_post_meta($post->ID, 'facebook_url', true); ?></li><?php endif; ?>
-            <?php if (get_post_meta($post->ID, 'twitter_url', true)) : ?><li>twitter_url: <?= get_post_meta($post->ID, 'twitter_url', true); ?></li><?php endif; ?>
-            <?php if (get_post_meta($post->ID, 'instagram_url', true)) : ?><li>instagram_url: <?= get_post_meta($post->ID, 'instagram_url', true); ?></li><?php endif; ?>
-            <?php if (get_post_meta($post->ID, 'email_address', true)) : ?><li>email_address: <?= get_post_meta($post->ID, 'email_address', true); ?></li><?php endif; ?>
+            <?php if (get_post_meta($post->ID, 'website_url', true)) : ?><li><a href="<?= get_post_meta($post->ID, 'website_url', true); ?>" target="_blank">Website</a></li><?php endif; ?>
+            <?php if (get_post_meta($post->ID, 'facebook_url', true)) : ?><li><a href="<?= get_post_meta($post->ID, 'facebook_url', true); ?>" target="_blank">Facebook</a></li><?php endif; ?>
+            <?php if (get_post_meta($post->ID, 'twitter_url', true)) : ?><li><a href="<?= get_post_meta($post->ID, 'twitter_url', true); ?>" target="_blank">Twitter</a></li><?php endif; ?>
+            <?php if (get_post_meta($post->ID, 'instagram_url', true)) : ?><li><a href="<?= get_post_meta($post->ID, 'instagram_url', true); ?>" target="_blank">Instagram</a></li><?php endif; ?>
+            <?php if (get_post_meta($post->ID, 'email_address', true)) : ?><li><a href="mailto: <?= get_post_meta($post->ID, 'email_address', true); ?>">Email</a></li><?php endif; ?>
         </ul>
 
         <div class="has-text-centered map-embed">
@@ -22,10 +22,6 @@
         </iframe>
         </div>
     </div>
-</div>
-
-<div class="section">
-    <?php the_meta(); ?>
 </div>
 
 <?php 
