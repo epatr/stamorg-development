@@ -96,7 +96,7 @@ aside.menu {
     margin-bottom: 3em;
 }
 
-.current-menu-item {
+.current-menu-item a {
     @extend .is-active;
 }
 

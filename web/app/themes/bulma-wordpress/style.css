@@ -760,7 +760,7 @@ a.box:active {
   padding-right: 0.75em;
   text-align: center;
   white-space: nowrap; }
-  .button:focus, .button.is-focused, .button:active, .button.is-active, .button.current-menu-item {
+  .button:focus, .button.is-focused, .button:active, .button.is-active, .current-menu-item a.button {
     outline: none; }
   .button[disabled] {
     cursor: not-allowed; }
@@ -785,7 +785,7 @@ a.box:active {
     border-color: #3273dc;
     box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
     color: #363636; }
-  .button:active, .button.is-active, .button.current-menu-item {
+  .button:active, .button.is-active, .current-menu-item a.button {
     border-color: #4a4a4a;
     box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
     color: #363636; }
@@ -794,7 +794,7 @@ a.box:active {
     border-color: transparent;
     color: #4a4a4a;
     text-decoration: underline; }
-    .button.is-link:hover, .button.is-link.is-hovered, .button.is-link:focus, .button.is-link.is-focused, .button.is-link:active, .button.is-link.is-active, .button.is-link.current-menu-item {
+    .button.is-link:hover, .button.is-link.is-hovered, .button.is-link:focus, .button.is-link.is-focused, .button.is-link:active, .button.is-link.is-active, .current-menu-item a.button.is-link {
       background-color: whitesmoke;
       color: #363636; }
     .button.is-link[disabled] {
@@ -813,7 +813,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.25);
       color: #0a0a0a; }
-    .button.is-white:active, .button.is-white.is-active, .button.is-white.current-menu-item {
+    .button.is-white:active, .button.is-white.is-active, .current-menu-item a.button.is-white {
       background-color: #f2f2f2;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -873,7 +873,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.25);
       color: white; }
-    .button.is-black:active, .button.is-black.is-active, .button.is-black.current-menu-item {
+    .button.is-black:active, .button.is-black.is-active, .current-menu-item a.button.is-black {
       background-color: black;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -933,7 +933,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(245, 245, 245, 0.25);
       color: #363636; }
-    .button.is-light:active, .button.is-light.is-active, .button.is-light.current-menu-item {
+    .button.is-light:active, .button.is-light.is-active, .current-menu-item a.button.is-light {
       background-color: #e8e8e8;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -993,7 +993,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(54, 54, 54, 0.25);
       color: whitesmoke; }
-    .button.is-dark:active, .button.is-dark.is-active, .button.is-dark.current-menu-item {
+    .button.is-dark:active, .button.is-dark.is-active, .current-menu-item a.button.is-dark {
       background-color: #292929;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -1053,7 +1053,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
       color: #fff; }
-    .button.is-primary:active, .button.is-primary.is-active, .button.is-primary.current-menu-item {
+    .button.is-primary:active, .button.is-primary.is-active, .current-menu-item a.button.is-primary {
       background-color: #2366d1;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -1113,7 +1113,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
       color: #fff; }
-    .button.is-info:active, .button.is-info.is-active, .button.is-info.current-menu-item {
+    .button.is-info:active, .button.is-info.is-active, .current-menu-item a.button.is-info {
       background-color: #2366d1;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -1173,7 +1173,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(35, 209, 96, 0.25);
       color: #fff; }
-    .button.is-success:active, .button.is-success.is-active, .button.is-success.current-menu-item {
+    .button.is-success:active, .button.is-success.is-active, .current-menu-item a.button.is-success {
       background-color: #20bc56;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -1233,7 +1233,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(255, 221, 87, 0.25);
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:active, .button.is-warning.is-active, .button.is-warning.current-menu-item {
+    .button.is-warning:active, .button.is-warning.is-active, .current-menu-item a.button.is-warning {
       background-color: #ffd83d;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -1293,7 +1293,7 @@ a.box:active {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(255, 56, 96, 0.25);
       color: #fff; }
-    .button.is-danger:active, .button.is-danger.is-active, .button.is-danger.current-menu-item {
+    .button.is-danger:active, .button.is-danger.is-active, .current-menu-item a.button.is-danger {
       background-color: #ff1f4b;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
@@ -1536,12 +1536,12 @@ a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   max-width: 100%;
   width: 100%; }
-  .input:focus, .input.is-focused, .input:active, .input.is-active, .input.current-menu-item,
+  .input:focus, .input.is-focused, .input:active, .input.is-active, .current-menu-item a.input,
   .textarea:focus,
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active,
-  .textarea.current-menu-item {
+  .current-menu-item a.textarea {
     outline: none; }
   .input[disabled],
   .textarea[disabled] {
@@ -1550,12 +1550,12 @@ a.box:active {
   .textarea:hover,
   .textarea.is-hovered {
     border-color: #b5b5b5; }
-  .input:focus, .input.is-focused, .input:active, .input.is-active, .input.current-menu-item,
+  .input:focus, .input.is-focused, .input:active, .input.is-active, .current-menu-item a.input,
   .textarea:focus,
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active,
-  .textarea.current-menu-item {
+  .current-menu-item a.textarea {
     border-color: #3273dc; }
   .input[disabled],
   .textarea[disabled] {
@@ -1704,13 +1704,13 @@ a.box:active {
     font-size: 1em;
     max-width: 100%;
     outline: none; }
-    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active, .select select.current-menu-item {
+    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
       outline: none; }
     .select select[disabled] {
       cursor: not-allowed; }
     .select select:hover, .select select.is-hovered {
       border-color: #b5b5b5; }
-    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active, .select select.current-menu-item {
+    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
       border-color: #3273dc; }
     .select select[disabled] {
       background-color: whitesmoke;
@@ -1727,7 +1727,7 @@ a.box:active {
         color: rgba(122, 122, 122, 0.3); }
     .select select:hover {
       border-color: #b5b5b5; }
-    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active, .select select.current-menu-item {
+    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
       border-color: #3273dc; }
     .select select::-ms-expand {
       display: none; }
@@ -1861,29 +1861,29 @@ a.box:active {
     .field.has-addons .control .select select:hover,
     .field.has-addons .control .select select.is-hovered {
       z-index: 2; }
-    .field.has-addons .control .button:focus, .field.has-addons .control .button.is-focused, .field.has-addons .control .button:active, .field.has-addons .control .button.is-active, .field.has-addons .control .button.current-menu-item,
+    .field.has-addons .control .button:focus, .field.has-addons .control .button.is-focused, .field.has-addons .control .button:active, .field.has-addons .control .button.is-active, .field.has-addons .control .current-menu-item a.button, .current-menu-item .field.has-addons .control a.button,
     .field.has-addons .control .input:focus,
     .field.has-addons .control .input.is-focused,
     .field.has-addons .control .input:active,
     .field.has-addons .control .input.is-active,
-    .field.has-addons .control .input.current-menu-item,
+    .field.has-addons .control .current-menu-item a.input, .current-menu-item
+    .field.has-addons .control a.input,
     .field.has-addons .control .select select:focus,
     .field.has-addons .control .select select.is-focused,
     .field.has-addons .control .select select:active,
-    .field.has-addons .control .select select.is-active,
-    .field.has-addons .control .select select.current-menu-item {
+    .field.has-addons .control .select select.is-active {
       z-index: 3; }
-      .field.has-addons .control .button:focus:hover, .field.has-addons .control .button.is-focused:hover, .field.has-addons .control .button:active:hover, .field.has-addons .control .button.is-active:hover, .field.has-addons .control .button.current-menu-item:hover,
+      .field.has-addons .control .button:focus:hover, .field.has-addons .control .button.is-focused:hover, .field.has-addons .control .button:active:hover, .field.has-addons .control .button.is-active:hover, .field.has-addons .control .current-menu-item a.button:hover, .current-menu-item .field.has-addons .control a.button:hover,
       .field.has-addons .control .input:focus:hover,
       .field.has-addons .control .input.is-focused:hover,
       .field.has-addons .control .input:active:hover,
       .field.has-addons .control .input.is-active:hover,
-      .field.has-addons .control .input.current-menu-item:hover,
+      .field.has-addons .control .current-menu-item a.input:hover, .current-menu-item
+      .field.has-addons .control a.input:hover,
       .field.has-addons .control .select select:focus:hover,
       .field.has-addons .control .select select.is-focused:hover,
       .field.has-addons .control .select select:active:hover,
-      .field.has-addons .control .select select.is-active:hover,
-      .field.has-addons .control .select select.current-menu-item:hover {
+      .field.has-addons .control .select select.is-active:hover {
         z-index: 4; }
   .field.has-addons .control.is-expanded {
     flex-grow: 1; }
@@ -2625,7 +2625,7 @@ a.tag:hover {
   .breadcrumb li {
     align-items: center;
     display: flex; }
-    .breadcrumb li.is-active a, .breadcrumb li.current-menu-item a {
+    .breadcrumb li.is-active a {
       color: #363636;
       cursor: default;
       pointer-events: none; }
@@ -2718,7 +2718,7 @@ a.tag:hover {
   display: inline-flex;
   position: relative;
   vertical-align: top; }
-  .dropdown.is-active .dropdown-menu, .dropdown.current-menu-item .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
+  .dropdown.is-active .dropdown-menu, .current-menu-item a.dropdown .dropdown-menu, .dropdown.is-hoverable:hover .dropdown-menu {
     display: block; }
   .dropdown.is-right .dropdown-menu {
     left: auto;
@@ -2754,7 +2754,7 @@ a.dropdown-item {
   a.dropdown-item:hover {
     background-color: whitesmoke;
     color: #0a0a0a; }
-  a.dropdown-item.is-active, a.dropdown-item.current-menu-item {
+  a.dropdown-item.is-active, .current-menu-item a.dropdown-item {
     background-color: #3273dc;
     color: #fff; }
 
@@ -2897,7 +2897,7 @@ a.dropdown-item {
     .menu-list a:hover, ul.menu-wp_nav_menu a:hover {
       background-color: whitesmoke;
       color: #363636; }
-    .menu-list a.is-active, ul.menu-wp_nav_menu a.is-active, .menu-list a.current-menu-item, ul.menu-wp_nav_menu a.current-menu-item {
+    .menu-list a.is-active, ul.menu-wp_nav_menu a.is-active, .menu-list .current-menu-item a, .current-menu-item .menu-list a, ul.menu-wp_nav_menu .current-menu-item a, .current-menu-item ul.menu-wp_nav_menu a {
       background-color: #3273dc;
       color: #fff; }
   .menu-list li ul, ul.menu-wp_nav_menu li ul {
@@ -3052,7 +3052,7 @@ a.dropdown-item {
   overflow: hidden;
   position: fixed;
   z-index: 20; }
-  .modal.is-active, .modal.current-menu-item {
+  .modal.is-active, .current-menu-item a.modal {
     display: flex; }
 
 .modal-background {
@@ -3217,15 +3217,15 @@ a.dropdown-item {
       margin-top: 4px; }
   .nav-toggle:hover {
     background-color: whitesmoke; }
-  .nav-toggle.is-active span, .nav-toggle.current-menu-item span {
+  .nav-toggle.is-active span, .current-menu-item a.nav-toggle span {
     background-color: #3273dc; }
-    .nav-toggle.is-active span:nth-child(1), .nav-toggle.current-menu-item span:nth-child(1) {
+    .nav-toggle.is-active span:nth-child(1), .current-menu-item a.nav-toggle span:nth-child(1) {
       margin-left: -5px;
       transform: rotate(45deg);
       transform-origin: left top; }
-    .nav-toggle.is-active span:nth-child(2), .nav-toggle.current-menu-item span:nth-child(2) {
+    .nav-toggle.is-active span:nth-child(2), .current-menu-item a.nav-toggle span:nth-child(2) {
       opacity: 0; }
-    .nav-toggle.is-active span:nth-child(3), .nav-toggle.current-menu-item span:nth-child(3) {
+    .nav-toggle.is-active span:nth-child(3), .current-menu-item a.nav-toggle span:nth-child(3) {
       margin-left: -5px;
       transform: rotate(-45deg);
       transform-origin: left bottom; }
@@ -3261,9 +3261,9 @@ a.nav-item:not(.button) {
   .nav-item a:not(.button):hover,
   a.nav-item:not(.button):hover {
     color: #363636; }
-  .nav-item a:not(.button).is-active, .nav-item a.current-menu-item:not(.button),
+  .nav-item a:not(.button).is-active, .nav-item .current-menu-item a:not(.button), .current-menu-item .nav-item a:not(.button),
   a.nav-item:not(.button).is-active,
-  a.nav-item.current-menu-item:not(.button) {
+  .current-menu-item a.nav-item:not(.button) {
     color: #363636; }
   .nav-item a:not(.button).is-tab,
   a.nav-item:not(.button).is-tab {
@@ -3277,9 +3277,9 @@ a.nav-item:not(.button) {
     a.nav-item:not(.button).is-tab:hover {
       border-bottom-color: #3273dc;
       border-top-color: transparent; }
-    .nav-item a:not(.button).is-tab.is-active, .nav-item a.current-menu-item:not(.button).is-tab,
+    .nav-item a:not(.button).is-tab.is-active, .nav-item .current-menu-item a:not(.button).is-tab, .current-menu-item .nav-item a:not(.button).is-tab,
     a.nav-item:not(.button).is-tab.is-active,
-    a.nav-item.current-menu-item:not(.button).is-tab {
+    .current-menu-item a.nav-item:not(.button).is-tab {
       border-bottom: 3px solid #3273dc;
       color: #3273dc;
       padding-bottom: calc(0.75rem - 3px); }
@@ -3330,7 +3330,7 @@ a.nav-item:not(.button) {
     .nav-menu.nav-right .nav-item {
       border-top: 1px solid rgba(219, 219, 219, 0.5);
       padding: 0.75rem; }
-    .nav-menu.nav-right.is-active, .nav-menu.nav-right.current-menu-item {
+    .nav-menu.nav-right.is-active, .current-menu-item a.nav-menu.nav-right {
       display: block; } }
 
 .nav {
@@ -3395,15 +3395,15 @@ a.nav-item:not(.button) {
       margin-top: 4px; }
   .navbar-burger:hover {
     background-color: whitesmoke; }
-  .navbar-burger.is-active span, .navbar-burger.current-menu-item span {
+  .navbar-burger.is-active span, .current-menu-item a.navbar-burger span {
     background-color: #3273dc; }
-    .navbar-burger.is-active span:nth-child(1), .navbar-burger.current-menu-item span:nth-child(1) {
+    .navbar-burger.is-active span:nth-child(1), .current-menu-item a.navbar-burger span:nth-child(1) {
       margin-left: -5px;
       transform: rotate(45deg);
       transform-origin: left top; }
-    .navbar-burger.is-active span:nth-child(2), .navbar-burger.current-menu-item span:nth-child(2) {
+    .navbar-burger.is-active span:nth-child(2), .current-menu-item a.navbar-burger span:nth-child(2) {
       opacity: 0; }
-    .navbar-burger.is-active span:nth-child(3), .navbar-burger.current-menu-item span:nth-child(3) {
+    .navbar-burger.is-active span:nth-child(3), .current-menu-item a.navbar-burger span:nth-child(3) {
       margin-left: -5px;
       transform: rotate(-45deg);
       transform-origin: left bottom; }
@@ -3419,10 +3419,10 @@ a.nav-item:not(.button) {
   padding: 0.5rem 1rem;
   position: relative; }
 
-a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
+a.navbar-item:hover, a.navbar-item.is-active, .current-menu-item a.navbar-item,
 .navbar-link:hover,
 .navbar-link.is-active,
-.navbar-link.current-menu-item {
+.current-menu-item a.navbar-link {
   background-color: whitesmoke;
   color: #0a0a0a; }
 
@@ -3440,7 +3440,7 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
     .navbar-item.is-tab:hover {
       background-color: transparent;
       border-bottom-color: #3273dc; }
-    .navbar-item.is-tab.is-active, .navbar-item.is-tab.current-menu-item {
+    .navbar-item.is-tab.is-active, .current-menu-item a.navbar-item.is-tab {
       background-color: transparent;
       border-bottom-color: #3273dc;
       border-bottom-style: solid;
@@ -3477,7 +3477,7 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
   .navbar-menu {
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
-    .navbar-menu.is-active, .navbar-menu.current-menu-item {
+    .navbar-menu.is-active, .current-menu-item a.navbar-menu {
       display: block; } }
 
 @media screen and (min-width: 1008px) {
@@ -3489,17 +3489,18 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
     display: flex; }
   .navbar {
     min-height: 3.25rem; }
-    .navbar.is-transparent a.navbar-item:hover, .navbar.is-transparent a.navbar-item.is-active, .navbar.is-transparent a.navbar-item.current-menu-item,
+    .navbar.is-transparent a.navbar-item:hover, .navbar.is-transparent a.navbar-item.is-active, .navbar.is-transparent .current-menu-item a.navbar-item, .current-menu-item .navbar.is-transparent a.navbar-item,
     .navbar.is-transparent .navbar-link:hover,
     .navbar.is-transparent .navbar-link.is-active,
-    .navbar.is-transparent .navbar-link.current-menu-item {
+    .navbar.is-transparent .current-menu-item a.navbar-link, .current-menu-item
+    .navbar.is-transparent a.navbar-link {
       background-color: transparent; }
-    .navbar.is-transparent .navbar-item.has-dropdown.is-active .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.current-menu-item .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.is-hoverable:hover .navbar-link {
+    .navbar.is-transparent .navbar-item.has-dropdown.is-active .navbar-link, .navbar.is-transparent .current-menu-item a.navbar-item.has-dropdown .navbar-link, .current-menu-item .navbar.is-transparent a.navbar-item.has-dropdown .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.is-hoverable:hover .navbar-link {
       background-color: transparent; }
     .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
       background-color: whitesmoke;
       color: #0a0a0a; }
-    .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active, .navbar.is-transparent .navbar-dropdown a.navbar-item.current-menu-item {
+    .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active, .navbar.is-transparent .navbar-dropdown .current-menu-item a.navbar-item, .current-menu-item .navbar.is-transparent .navbar-dropdown a.navbar-item {
       background-color: whitesmoke;
       color: #3273dc; }
   .navbar-burger {
@@ -3510,9 +3511,9 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
     display: flex; }
   .navbar-item.has-dropdown {
     align-items: stretch; }
-  .navbar-item.is-active .navbar-dropdown, .navbar-item.current-menu-item .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
+  .navbar-item.is-active .navbar-dropdown, .current-menu-item a.navbar-item .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
     display: block; }
-    .navbar-item.is-active .navbar-dropdown.is-boxed, .navbar-item.current-menu-item .navbar-dropdown.is-boxed, .navbar-item.is-hoverable:hover .navbar-dropdown.is-boxed {
+    .navbar-item.is-active .navbar-dropdown.is-boxed, .current-menu-item a.navbar-item .navbar-dropdown.is-boxed, .navbar-item.is-hoverable:hover .navbar-dropdown.is-boxed {
       opacity: 1;
       pointer-events: auto;
       transform: translateY(0); }
@@ -3560,7 +3561,7 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
       .navbar-dropdown a.navbar-item:hover {
         background-color: whitesmoke;
         color: #0a0a0a; }
-      .navbar-dropdown a.navbar-item.is-active, .navbar-dropdown a.navbar-item.current-menu-item {
+      .navbar-dropdown a.navbar-item.is-active, .navbar-dropdown .current-menu-item a.navbar-item, .current-menu-item .navbar-dropdown a.navbar-item {
         background-color: whitesmoke;
         color: #3273dc; }
     .navbar-dropdown.is-boxed {
@@ -3579,15 +3580,15 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
   .container > .navbar {
     margin-left: -1rem;
     margin-right: -1rem; }
-  a.navbar-item.is-active, a.navbar-item.current-menu-item,
+  a.navbar-item.is-active, .current-menu-item a.navbar-item,
   .navbar-link.is-active,
-  .navbar-link.current-menu-item {
+  .current-menu-item a.navbar-link {
     color: #0a0a0a; }
-  a.navbar-item.is-active:not(:hover), a.navbar-item.current-menu-item:not(:hover),
+  a.navbar-item.is-active:not(:hover), .current-menu-item a.navbar-item:not(:hover),
   .navbar-link.is-active:not(:hover),
-  .navbar-link.current-menu-item:not(:hover) {
+  .current-menu-item a.navbar-link:not(:hover) {
     background-color: transparent; }
-  .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown.current-menu-item .navbar-link {
+  .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link, .current-menu-item a.navbar-item.has-dropdown .navbar-link {
     background-color: whitesmoke; } }
 
 .pagination {
@@ -3639,22 +3640,22 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
   justify-content: center;
   margin: 0.25rem;
   text-align: center; }
-  .pagination-previous:focus, .pagination-previous.is-focused, .pagination-previous:active, .pagination-previous.is-active, .pagination-previous.current-menu-item,
+  .pagination-previous:focus, .pagination-previous.is-focused, .pagination-previous:active, .pagination-previous.is-active, .current-menu-item a.pagination-previous,
   .pagination-next:focus,
   .pagination-next.is-focused,
   .pagination-next:active,
   .pagination-next.is-active,
-  .pagination-next.current-menu-item,
+  .current-menu-item a.pagination-next,
   .pagination-link:focus,
   .pagination-link.is-focused,
   .pagination-link:active,
   .pagination-link.is-active,
-  .pagination-link.current-menu-item,
+  .current-menu-item a.pagination-link,
   .pagination-ellipsis:focus,
   .pagination-ellipsis.is-focused,
   .pagination-ellipsis:active,
   .pagination-ellipsis.is-active,
-  .pagination-ellipsis.current-menu-item {
+  .current-menu-item a.pagination-ellipsis {
     outline: none; }
   .pagination-previous[disabled],
   .pagination-next[disabled],
@@ -3779,7 +3780,7 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: -1px;
     padding: 0.5em; }
-    .panel-tabs a.is-active, .panel-tabs a.current-menu-item {
+    .panel-tabs a.is-active, .panel-tabs .current-menu-item a, .current-menu-item .panel-tabs a {
       border-bottom-color: #4a4a4a;
       color: #363636; }
 
@@ -3802,10 +3803,10 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-item.current-menu-item,
     width: 100%; }
   .panel-block.is-wrapped {
     flex-wrap: wrap; }
-  .panel-block.is-active, .panel-block.current-menu-item {
+  .panel-block.is-active, .current-menu-item a.panel-block {
     border-left-color: #3273dc;
     color: #363636; }
-    .panel-block.is-active .panel-icon, .panel-block.current-menu-item .panel-icon {
+    .panel-block.is-active .panel-icon, .current-menu-item a.panel-block .panel-icon {
       color: #3273dc; }
 
 a.panel-block,
@@ -3861,7 +3862,7 @@ label.panel-block {
       color: #363636; }
   .tabs li {
     display: block; }
-    .tabs li.is-active a, .tabs li.current-menu-item a {
+    .tabs li.is-active a {
       border-bottom-color: #3273dc;
       color: #3273dc; }
   .tabs ul {
@@ -3897,7 +3898,7 @@ label.panel-block {
     .tabs.is-boxed a:hover {
       background-color: whitesmoke;
       border-bottom-color: #dbdbdb; }
-  .tabs.is-boxed li.is-active a, .tabs.is-boxed li.current-menu-item a {
+  .tabs.is-boxed li.is-active a {
     background-color: white;
     border-color: #dbdbdb;
     border-bottom-color: transparent !important; }
@@ -3920,7 +3921,7 @@ label.panel-block {
     border-radius: 3px 0 0 3px; }
   .tabs.is-toggle li:last-child a {
     border-radius: 0 3px 3px 0; }
-  .tabs.is-toggle li.is-active a, .tabs.is-toggle li.current-menu-item a {
+  .tabs.is-toggle li.is-active a {
     background-color: #3273dc;
     border-color: #3273dc;
     color: #fff;
@@ -4714,23 +4715,24 @@ label.panel-block {
     .hero.is-white a.nav-item,
     .hero.is-white .nav-item a:not(.button) {
       color: rgba(10, 10, 10, 0.7); }
-      .hero.is-white a.nav-item:hover, .hero.is-white a.nav-item.is-active, .hero.is-white a.nav-item.current-menu-item,
+      .hero.is-white a.nav-item:hover, .hero.is-white a.nav-item.is-active, .hero.is-white .current-menu-item a.nav-item, .current-menu-item .hero.is-white a.nav-item,
       .hero.is-white .nav-item a:not(.button):hover,
       .hero.is-white .nav-item a:not(.button).is-active,
-      .hero.is-white .nav-item a.current-menu-item:not(.button) {
+      .hero.is-white .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-white .nav-item a:not(.button) {
         color: #0a0a0a; }
     .hero.is-white .tabs a {
       color: #0a0a0a;
       opacity: 0.9; }
       .hero.is-white .tabs a:hover {
         opacity: 1; }
-    .hero.is-white .tabs li.is-active a, .hero.is-white .tabs li.current-menu-item a {
+    .hero.is-white .tabs li.is-active a {
       opacity: 1; }
     .hero.is-white .tabs.is-boxed a, .hero.is-white .tabs.is-toggle a {
       color: #0a0a0a; }
       .hero.is-white .tabs.is-boxed a:hover, .hero.is-white .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-white .tabs.is-boxed li.is-active a, .hero.is-white .tabs.is-boxed li.current-menu-item a, .hero.is-white .tabs.is-boxed li.is-active a:hover, .hero.is-white .tabs.is-boxed li.current-menu-item a:hover, .hero.is-white .tabs.is-toggle li.is-active a, .hero.is-white .tabs.is-toggle li.current-menu-item a, .hero.is-white .tabs.is-toggle li.is-active a:hover, .hero.is-white .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-white .tabs.is-boxed li.is-active a, .hero.is-white .tabs.is-boxed li.is-active a:hover, .hero.is-white .tabs.is-toggle li.is-active a, .hero.is-white .tabs.is-toggle li.is-active a:hover {
       background-color: #0a0a0a;
       border-color: #0a0a0a;
       color: white; }
@@ -4744,7 +4746,7 @@ label.panel-block {
         background-color: #0a0a0a; }
       .hero.is-white .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-white .nav-toggle.is-active span, .hero.is-white .nav-toggle.current-menu-item span {
+      .hero.is-white .nav-toggle.is-active span, .hero.is-white .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-white a.nav-toggle span {
         background-color: #0a0a0a; }
       .hero.is-white .nav-menu .nav-item {
         border-top-color: rgba(10, 10, 10, 0.2); } }
@@ -4769,23 +4771,24 @@ label.panel-block {
     .hero.is-black a.nav-item,
     .hero.is-black .nav-item a:not(.button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-black a.nav-item:hover, .hero.is-black a.nav-item.is-active, .hero.is-black a.nav-item.current-menu-item,
+      .hero.is-black a.nav-item:hover, .hero.is-black a.nav-item.is-active, .hero.is-black .current-menu-item a.nav-item, .current-menu-item .hero.is-black a.nav-item,
       .hero.is-black .nav-item a:not(.button):hover,
       .hero.is-black .nav-item a:not(.button).is-active,
-      .hero.is-black .nav-item a.current-menu-item:not(.button) {
+      .hero.is-black .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-black .nav-item a:not(.button) {
         color: white; }
     .hero.is-black .tabs a {
       color: white;
       opacity: 0.9; }
       .hero.is-black .tabs a:hover {
         opacity: 1; }
-    .hero.is-black .tabs li.is-active a, .hero.is-black .tabs li.current-menu-item a {
+    .hero.is-black .tabs li.is-active a {
       opacity: 1; }
     .hero.is-black .tabs.is-boxed a, .hero.is-black .tabs.is-toggle a {
       color: white; }
       .hero.is-black .tabs.is-boxed a:hover, .hero.is-black .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-black .tabs.is-boxed li.is-active a, .hero.is-black .tabs.is-boxed li.current-menu-item a, .hero.is-black .tabs.is-boxed li.is-active a:hover, .hero.is-black .tabs.is-boxed li.current-menu-item a:hover, .hero.is-black .tabs.is-toggle li.is-active a, .hero.is-black .tabs.is-toggle li.current-menu-item a, .hero.is-black .tabs.is-toggle li.is-active a:hover, .hero.is-black .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-black .tabs.is-boxed li.is-active a, .hero.is-black .tabs.is-boxed li.is-active a:hover, .hero.is-black .tabs.is-toggle li.is-active a, .hero.is-black .tabs.is-toggle li.is-active a:hover {
       background-color: white;
       border-color: white;
       color: #0a0a0a; }
@@ -4799,7 +4802,7 @@ label.panel-block {
         background-color: white; }
       .hero.is-black .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-black .nav-toggle.is-active span, .hero.is-black .nav-toggle.current-menu-item span {
+      .hero.is-black .nav-toggle.is-active span, .hero.is-black .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-black a.nav-toggle span {
         background-color: white; }
       .hero.is-black .nav-menu .nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
@@ -4824,23 +4827,24 @@ label.panel-block {
     .hero.is-light a.nav-item,
     .hero.is-light .nav-item a:not(.button) {
       color: rgba(54, 54, 54, 0.7); }
-      .hero.is-light a.nav-item:hover, .hero.is-light a.nav-item.is-active, .hero.is-light a.nav-item.current-menu-item,
+      .hero.is-light a.nav-item:hover, .hero.is-light a.nav-item.is-active, .hero.is-light .current-menu-item a.nav-item, .current-menu-item .hero.is-light a.nav-item,
       .hero.is-light .nav-item a:not(.button):hover,
       .hero.is-light .nav-item a:not(.button).is-active,
-      .hero.is-light .nav-item a.current-menu-item:not(.button) {
+      .hero.is-light .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-light .nav-item a:not(.button) {
         color: #363636; }
     .hero.is-light .tabs a {
       color: #363636;
       opacity: 0.9; }
       .hero.is-light .tabs a:hover {
         opacity: 1; }
-    .hero.is-light .tabs li.is-active a, .hero.is-light .tabs li.current-menu-item a {
+    .hero.is-light .tabs li.is-active a {
       opacity: 1; }
     .hero.is-light .tabs.is-boxed a, .hero.is-light .tabs.is-toggle a {
       color: #363636; }
       .hero.is-light .tabs.is-boxed a:hover, .hero.is-light .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-light .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.current-menu-item a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-boxed li.current-menu-item a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.current-menu-item a, .hero.is-light .tabs.is-toggle li.is-active a:hover, .hero.is-light .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-light .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.is-active a:hover {
       background-color: #363636;
       border-color: #363636;
       color: whitesmoke; }
@@ -4854,7 +4858,7 @@ label.panel-block {
         background-color: #363636; }
       .hero.is-light .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-light .nav-toggle.is-active span, .hero.is-light .nav-toggle.current-menu-item span {
+      .hero.is-light .nav-toggle.is-active span, .hero.is-light .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-light a.nav-toggle span {
         background-color: #363636; }
       .hero.is-light .nav-menu .nav-item {
         border-top-color: rgba(54, 54, 54, 0.2); } }
@@ -4879,23 +4883,24 @@ label.panel-block {
     .hero.is-dark a.nav-item,
     .hero.is-dark .nav-item a:not(.button) {
       color: rgba(245, 245, 245, 0.7); }
-      .hero.is-dark a.nav-item:hover, .hero.is-dark a.nav-item.is-active, .hero.is-dark a.nav-item.current-menu-item,
+      .hero.is-dark a.nav-item:hover, .hero.is-dark a.nav-item.is-active, .hero.is-dark .current-menu-item a.nav-item, .current-menu-item .hero.is-dark a.nav-item,
       .hero.is-dark .nav-item a:not(.button):hover,
       .hero.is-dark .nav-item a:not(.button).is-active,
-      .hero.is-dark .nav-item a.current-menu-item:not(.button) {
+      .hero.is-dark .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-dark .nav-item a:not(.button) {
         color: whitesmoke; }
     .hero.is-dark .tabs a {
       color: whitesmoke;
       opacity: 0.9; }
       .hero.is-dark .tabs a:hover {
         opacity: 1; }
-    .hero.is-dark .tabs li.is-active a, .hero.is-dark .tabs li.current-menu-item a {
+    .hero.is-dark .tabs li.is-active a {
       opacity: 1; }
     .hero.is-dark .tabs.is-boxed a, .hero.is-dark .tabs.is-toggle a {
       color: whitesmoke; }
       .hero.is-dark .tabs.is-boxed a:hover, .hero.is-dark .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-dark .tabs.is-boxed li.is-active a, .hero.is-dark .tabs.is-boxed li.current-menu-item a, .hero.is-dark .tabs.is-boxed li.is-active a:hover, .hero.is-dark .tabs.is-boxed li.current-menu-item a:hover, .hero.is-dark .tabs.is-toggle li.is-active a, .hero.is-dark .tabs.is-toggle li.current-menu-item a, .hero.is-dark .tabs.is-toggle li.is-active a:hover, .hero.is-dark .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-dark .tabs.is-boxed li.is-active a, .hero.is-dark .tabs.is-boxed li.is-active a:hover, .hero.is-dark .tabs.is-toggle li.is-active a, .hero.is-dark .tabs.is-toggle li.is-active a:hover {
       background-color: whitesmoke;
       border-color: whitesmoke;
       color: #363636; }
@@ -4909,7 +4914,7 @@ label.panel-block {
         background-color: whitesmoke; }
       .hero.is-dark .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-dark .nav-toggle.is-active span, .hero.is-dark .nav-toggle.current-menu-item span {
+      .hero.is-dark .nav-toggle.is-active span, .hero.is-dark .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-dark a.nav-toggle span {
         background-color: whitesmoke; }
       .hero.is-dark .nav-menu .nav-item {
         border-top-color: rgba(245, 245, 245, 0.2); } }
@@ -4934,23 +4939,24 @@ label.panel-block {
     .hero.is-primary a.nav-item,
     .hero.is-primary .nav-item a:not(.button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-primary a.nav-item:hover, .hero.is-primary a.nav-item.is-active, .hero.is-primary a.nav-item.current-menu-item,
+      .hero.is-primary a.nav-item:hover, .hero.is-primary a.nav-item.is-active, .hero.is-primary .current-menu-item a.nav-item, .current-menu-item .hero.is-primary a.nav-item,
       .hero.is-primary .nav-item a:not(.button):hover,
       .hero.is-primary .nav-item a:not(.button).is-active,
-      .hero.is-primary .nav-item a.current-menu-item:not(.button) {
+      .hero.is-primary .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-primary .nav-item a:not(.button) {
         color: #fff; }
     .hero.is-primary .tabs a {
       color: #fff;
       opacity: 0.9; }
       .hero.is-primary .tabs a:hover {
         opacity: 1; }
-    .hero.is-primary .tabs li.is-active a, .hero.is-primary .tabs li.current-menu-item a {
+    .hero.is-primary .tabs li.is-active a {
       opacity: 1; }
     .hero.is-primary .tabs.is-boxed a, .hero.is-primary .tabs.is-toggle a {
       color: #fff; }
       .hero.is-primary .tabs.is-boxed a:hover, .hero.is-primary .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.current-menu-item a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-boxed li.current-menu-item a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.current-menu-item a, .hero.is-primary .tabs.is-toggle li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #3273dc; }
@@ -4964,7 +4970,7 @@ label.panel-block {
         background-color: #fff; }
       .hero.is-primary .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-primary .nav-toggle.is-active span, .hero.is-primary .nav-toggle.current-menu-item span {
+      .hero.is-primary .nav-toggle.is-active span, .hero.is-primary .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-primary a.nav-toggle span {
         background-color: #fff; }
       .hero.is-primary .nav-menu .nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
@@ -4989,23 +4995,24 @@ label.panel-block {
     .hero.is-info a.nav-item,
     .hero.is-info .nav-item a:not(.button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-info a.nav-item:hover, .hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item.current-menu-item,
+      .hero.is-info a.nav-item:hover, .hero.is-info a.nav-item.is-active, .hero.is-info .current-menu-item a.nav-item, .current-menu-item .hero.is-info a.nav-item,
       .hero.is-info .nav-item a:not(.button):hover,
       .hero.is-info .nav-item a:not(.button).is-active,
-      .hero.is-info .nav-item a.current-menu-item:not(.button) {
+      .hero.is-info .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-info .nav-item a:not(.button) {
         color: #fff; }
     .hero.is-info .tabs a {
       color: #fff;
       opacity: 0.9; }
       .hero.is-info .tabs a:hover {
         opacity: 1; }
-    .hero.is-info .tabs li.is-active a, .hero.is-info .tabs li.current-menu-item a {
+    .hero.is-info .tabs li.is-active a {
       opacity: 1; }
     .hero.is-info .tabs.is-boxed a, .hero.is-info .tabs.is-toggle a {
       color: #fff; }
       .hero.is-info .tabs.is-boxed a:hover, .hero.is-info .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-info .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.current-menu-item a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-boxed li.current-menu-item a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.current-menu-item a, .hero.is-info .tabs.is-toggle li.is-active a:hover, .hero.is-info .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-info .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #3273dc; }
@@ -5019,7 +5026,7 @@ label.panel-block {
         background-color: #fff; }
       .hero.is-info .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-info .nav-toggle.is-active span, .hero.is-info .nav-toggle.current-menu-item span {
+      .hero.is-info .nav-toggle.is-active span, .hero.is-info .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-info a.nav-toggle span {
         background-color: #fff; }
       .hero.is-info .nav-menu .nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
@@ -5044,23 +5051,24 @@ label.panel-block {
     .hero.is-success a.nav-item,
     .hero.is-success .nav-item a:not(.button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-success a.nav-item:hover, .hero.is-success a.nav-item.is-active, .hero.is-success a.nav-item.current-menu-item,
+      .hero.is-success a.nav-item:hover, .hero.is-success a.nav-item.is-active, .hero.is-success .current-menu-item a.nav-item, .current-menu-item .hero.is-success a.nav-item,
       .hero.is-success .nav-item a:not(.button):hover,
       .hero.is-success .nav-item a:not(.button).is-active,
-      .hero.is-success .nav-item a.current-menu-item:not(.button) {
+      .hero.is-success .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-success .nav-item a:not(.button) {
         color: #fff; }
     .hero.is-success .tabs a {
       color: #fff;
       opacity: 0.9; }
       .hero.is-success .tabs a:hover {
         opacity: 1; }
-    .hero.is-success .tabs li.is-active a, .hero.is-success .tabs li.current-menu-item a {
+    .hero.is-success .tabs li.is-active a {
       opacity: 1; }
     .hero.is-success .tabs.is-boxed a, .hero.is-success .tabs.is-toggle a {
       color: #fff; }
       .hero.is-success .tabs.is-boxed a:hover, .hero.is-success .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-success .tabs.is-boxed li.is-active a, .hero.is-success .tabs.is-boxed li.current-menu-item a, .hero.is-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-boxed li.current-menu-item a:hover, .hero.is-success .tabs.is-toggle li.is-active a, .hero.is-success .tabs.is-toggle li.current-menu-item a, .hero.is-success .tabs.is-toggle li.is-active a:hover, .hero.is-success .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-success .tabs.is-boxed li.is-active a, .hero.is-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle li.is-active a, .hero.is-success .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #23d160; }
@@ -5074,7 +5082,7 @@ label.panel-block {
         background-color: #fff; }
       .hero.is-success .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-success .nav-toggle.is-active span, .hero.is-success .nav-toggle.current-menu-item span {
+      .hero.is-success .nav-toggle.is-active span, .hero.is-success .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-success a.nav-toggle span {
         background-color: #fff; }
       .hero.is-success .nav-menu .nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
@@ -5099,23 +5107,24 @@ label.panel-block {
     .hero.is-warning a.nav-item,
     .hero.is-warning .nav-item a:not(.button) {
       color: rgba(0, 0, 0, 0.7); }
-      .hero.is-warning a.nav-item:hover, .hero.is-warning a.nav-item.is-active, .hero.is-warning a.nav-item.current-menu-item,
+      .hero.is-warning a.nav-item:hover, .hero.is-warning a.nav-item.is-active, .hero.is-warning .current-menu-item a.nav-item, .current-menu-item .hero.is-warning a.nav-item,
       .hero.is-warning .nav-item a:not(.button):hover,
       .hero.is-warning .nav-item a:not(.button).is-active,
-      .hero.is-warning .nav-item a.current-menu-item:not(.button) {
+      .hero.is-warning .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-warning .nav-item a:not(.button) {
         color: rgba(0, 0, 0, 0.7); }
     .hero.is-warning .tabs a {
       color: rgba(0, 0, 0, 0.7);
       opacity: 0.9; }
       .hero.is-warning .tabs a:hover {
         opacity: 1; }
-    .hero.is-warning .tabs li.is-active a, .hero.is-warning .tabs li.current-menu-item a {
+    .hero.is-warning .tabs li.is-active a {
       opacity: 1; }
     .hero.is-warning .tabs.is-boxed a, .hero.is-warning .tabs.is-toggle a {
       color: rgba(0, 0, 0, 0.7); }
       .hero.is-warning .tabs.is-boxed a:hover, .hero.is-warning .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-warning .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.current-menu-item a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-boxed li.current-menu-item a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.current-menu-item a, .hero.is-warning .tabs.is-toggle li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-warning .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover {
       background-color: rgba(0, 0, 0, 0.7);
       border-color: rgba(0, 0, 0, 0.7);
       color: #ffdd57; }
@@ -5129,7 +5138,7 @@ label.panel-block {
         background-color: rgba(0, 0, 0, 0.7); }
       .hero.is-warning .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-warning .nav-toggle.is-active span, .hero.is-warning .nav-toggle.current-menu-item span {
+      .hero.is-warning .nav-toggle.is-active span, .hero.is-warning .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-warning a.nav-toggle span {
         background-color: rgba(0, 0, 0, 0.7); }
       .hero.is-warning .nav-menu .nav-item {
         border-top-color: rgba(0, 0, 0, 0.2); } }
@@ -5154,23 +5163,24 @@ label.panel-block {
     .hero.is-danger a.nav-item,
     .hero.is-danger .nav-item a:not(.button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-danger a.nav-item:hover, .hero.is-danger a.nav-item.is-active, .hero.is-danger a.nav-item.current-menu-item,
+      .hero.is-danger a.nav-item:hover, .hero.is-danger a.nav-item.is-active, .hero.is-danger .current-menu-item a.nav-item, .current-menu-item .hero.is-danger a.nav-item,
       .hero.is-danger .nav-item a:not(.button):hover,
       .hero.is-danger .nav-item a:not(.button).is-active,
-      .hero.is-danger .nav-item a.current-menu-item:not(.button) {
+      .hero.is-danger .nav-item .current-menu-item a:not(.button), .current-menu-item
+      .hero.is-danger .nav-item a:not(.button) {
         color: #fff; }
     .hero.is-danger .tabs a {
       color: #fff;
       opacity: 0.9; }
       .hero.is-danger .tabs a:hover {
         opacity: 1; }
-    .hero.is-danger .tabs li.is-active a, .hero.is-danger .tabs li.current-menu-item a {
+    .hero.is-danger .tabs li.is-active a {
       opacity: 1; }
     .hero.is-danger .tabs.is-boxed a, .hero.is-danger .tabs.is-toggle a {
       color: #fff; }
       .hero.is-danger .tabs.is-boxed a:hover, .hero.is-danger .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-danger .tabs.is-boxed li.is-active a, .hero.is-danger .tabs.is-boxed li.current-menu-item a, .hero.is-danger .tabs.is-boxed li.is-active a:hover, .hero.is-danger .tabs.is-boxed li.current-menu-item a:hover, .hero.is-danger .tabs.is-toggle li.is-active a, .hero.is-danger .tabs.is-toggle li.current-menu-item a, .hero.is-danger .tabs.is-toggle li.is-active a:hover, .hero.is-danger .tabs.is-toggle li.current-menu-item a:hover {
+    .hero.is-danger .tabs.is-boxed li.is-active a, .hero.is-danger .tabs.is-boxed li.is-active a:hover, .hero.is-danger .tabs.is-toggle li.is-active a, .hero.is-danger .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #ff3860; }
@@ -5184,7 +5194,7 @@ label.panel-block {
         background-color: #fff; }
       .hero.is-danger .nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-danger .nav-toggle.is-active span, .hero.is-danger .nav-toggle.current-menu-item span {
+      .hero.is-danger .nav-toggle.is-active span, .hero.is-danger .current-menu-item a.nav-toggle span, .current-menu-item .hero.is-danger a.nav-toggle span {
         background-color: #fff; }
       .hero.is-danger .nav-menu .nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
