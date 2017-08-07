@@ -58,9 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <a href="/about/" class="navbar-item">About</a>
         </div>
         <div class="navbar-end">
-            <div class="field is-horizontal">
             <?php get_search_form(); ?>
-            </div>
         </div>
     </div>
 </nav>
