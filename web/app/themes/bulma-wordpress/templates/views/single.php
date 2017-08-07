@@ -19,7 +19,7 @@
     <div class="message-body">
         <ul>
             <?php if ($post->event_date) : $eventDate = DateTime::createFromFormat('Ymd', $post->event_date)->format('l, F jS'); ?><li><?= $eventDate ?></li> <?php endif; ?>
-            <?php if ($post->website_url) : ?><li><a href="<?php get_post_meta($post->ID, 'website_url', true); ?>" target="_blank"><?php get_post_meta($post->ID, 'website_url', true); ?></a></li> <?php endif; ?>
+            <?php if ($post->website_url) : ?><li><a href="<?php echo get_post_meta(get_the_ID(), 'website_url', true); ?>" target="_blank"><?php echo get_post_meta($post->ID, 'website_url', true); ?></a></li> <?php endif; ?>
         </ul>
     </div>
 </div>
