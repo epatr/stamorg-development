@@ -2,20 +2,21 @@
 <div class="content">
 
     <div class="menu">
+        <p class="menu-label">Upcoming Shows</p>
+        <ul class="menu-list">
+            <?php 
+                get_template_part('templates/snippets/upcoming-shows');
+            ?>
+        </ul>
+    </div>
+
+    <div class="menu">
         <p class="menu-label">St. Augustine Music Project</p>
 
             <?php wp_nav_menu(array(
                 'theme_location' => 'primary',
                 'menu_class' => 'menu-wp_nav_menu'
                 )); 
-            ?>
-    </div>
-
-    <div class="menu">
-        <p class="menu-label">Latest Posts</p>
-
-            <?php 
-            get_template_part('templates/snippets/upcoming-shows');
             ?>
     </div>
 
