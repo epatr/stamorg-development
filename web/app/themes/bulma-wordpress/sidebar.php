@@ -1,28 +1,14 @@
 
 <div class="content">
 
-    <p class="menu-label">Upcoming Shows</p>
+    <p class="menu-label">St. Augustine Music Project</p>
 
     <ul class="menu-list">
-    <?php 
+    <?php wp_nav_menu(array(
+                    'theme_location' => 'primary',
+                    'link_before' => '<div class="menu-item">',
+                    'link_after' => '</div>'
+                )); ?>
 
-    //$eventQuery = include(TEMPLATEPATH . '/' . 'templates/queries/events.php');
-    $eventQuery = bulmawordpress_event_query('events', 5);
-
-    $the_query = new WP_Query($eventQuery);
-
-    if ($the_query->have_posts()) : 
-        while ($the_query->have_posts()) :
-            $the_query->the_post();
-
-            get_template_part('templates/views/li', get_post_format());
-
-        endwhile;
-
-    endif;
-
-    wp_reset_query();
-
-    ?>
     </ul>
 </div>

@@ -33,5 +33,3 @@ if ($the_query->have_posts()) :
 endif;
 
 get_footer();
-
-?>
