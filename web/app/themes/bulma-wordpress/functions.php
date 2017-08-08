@@ -10,9 +10,10 @@ function bulmawordpress_setup() {
                 'primary' => 'Primary Menu'
             ));
         
-        // Add support for flyer thumbnails
+        // Add support for flyers, thumbnails, and Open Graph
         add_image_size('flyer-thumb', 240, 360, true);
         add_image_size('flyer-tiny', 75, 150);
+        add_image_size('open-graph', 1200, 630);
     }
 endif;
 add_action('after_setup_theme', 'bulmawordpress_setup');
