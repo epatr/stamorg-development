@@ -1,9 +1,11 @@
 <article>
 
 <?php 
-if ( has_post_thumbnail() ) {
-	the_post_thumbnail('open-graph');
-} 
+if ( has_post_thumbnail() ) : ?>
+<div class="has-text-centered image is-128x128">
+	<?php the_post_thumbnail('open-graph'); ?>
+</div>
+<?php endif; 
 ?>
 
 <a href="<?php the_permalink(); ?>"><h3 class="title is-3"><?php the_title(); ?></h3></a>
