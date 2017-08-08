@@ -11,7 +11,7 @@ if (have_posts()) : ?>
 
         the_post();
 ?>
-<div class="column">
+<div class="column is-one-third">
 <?php
         get_template_part('templates/views/summary', get_post_format());
 ?>

@@ -7630,9 +7630,6 @@ h3.header__motto {
     .article__metadata ul.post-categories li {
       display: inline; }
 
-.summary > .column:nth-child(3n+1) {
-  clear: left; }
-
 .article__content {
   padding-bottom: 3rem; }
 
