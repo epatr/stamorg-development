@@ -14,7 +14,7 @@ if (have_posts()) : ?>
 ?>
 <div class="column is-one-third">
 <?php
-        get_template_part('templates/views/summary', get_post_format());
+        get_template_part('templates/views/summary-card', get_post_format());
 ?>
 </div>
 <?php
