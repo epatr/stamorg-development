@@ -1,18 +1,33 @@
-<article>
+<div class="card">
 
 <?php 
 if ( has_post_thumbnail() ) : ?>
-<div class="has-text-centered image">
-	<?php the_post_thumbnail('open-graph'); ?>
-</div>
+  <div class="card-image">
+    <figure class="image">
+      <?php the_post_thumbnail('open-graph'); ?>
+    </figure>
+  </div>
 <?php endif; 
 ?>
 
-<a href="<?php the_permalink(); ?>"><h3 class="title is-3"><?php the_title(); ?></h3></a>
+  <header class="card-header">
+    <p class="card-header-title">
+      <?php the_title(); ?>
+    </p>
+  </header>
 
-<div class="article__metadata">Posted <span><?php echo get_the_date(); ?></span> by <?php the_author_posts_link(); ?> <?php if(get_the_category()): echo ' in ' , the_category(); endif; ?></div>
-<div class="article__content">
-    <?php the_content(); ?>
+  <div class="card-content">
+
+    <div class="content">
+        <?php the_excerpt(); ?>
+      <br>
+      <small><?php echo get_the_date(); ?></small>
+    </div>
+  </div>
+  
+  <footer class="card-footer">
+    <a class="card-footer-item">Read More</a>
+    <a class="card-footer-item">0 Comments</a>
+  </footer>
+
 </div>
-
-</article>
