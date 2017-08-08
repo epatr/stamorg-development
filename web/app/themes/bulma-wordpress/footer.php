@@ -11,7 +11,6 @@
             
             <div>
                 <a href="https://gitlab.com/epatr/stamusic.org"><i class="fa fa-gitlab"></i></a>
-                <a href="https://www.facebook.com/stamusic.org"><i class="fa fa-facebook"></i></a>
             </div>
             
         </div> <!-- /.content.has-text-centered -->

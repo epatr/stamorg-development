@@ -27,7 +27,7 @@ if ( has_post_thumbnail() ) : ?>
 
   <footer class="card-footer">
     <a href="<?php the_permalink() ?>" class="card-footer-item">Read More</a>
-    <a href="<?php comments_link(); ?>" class="card-footer-item">0 Comments</a>
+    <a href="<?php comments_link(); ?>" class="card-footer-item"><?php comments_number( '0 comments', '1 comment', '% responses' ); ?></a>
   </footer>
 
 </div>
