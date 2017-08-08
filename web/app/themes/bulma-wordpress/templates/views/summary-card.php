@@ -20,7 +20,7 @@ if ( has_post_thumbnail() ) : ?>
 
     <div class="content">
         <?php the_excerpt(); ?>
-      <br>
+
       <small><?php echo get_the_date(); ?></small>
     </div>
   </div>

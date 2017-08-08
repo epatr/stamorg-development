@@ -12,7 +12,7 @@ if (have_posts()) : ?>
     while (have_posts()) :
         the_post();
 ?>
-<div class="column is-one-third">
+<div class="column is-one-half">
 <?php
         get_template_part('templates/views/summary-card', get_post_format());
 ?>
@@ -20,7 +20,7 @@ if (have_posts()) : ?>
 <?php
 
 // we need to get the loop count and either increment it or reset it
-    if ($loopCount == 2) {
+    if ($loopCount == 1) {
         echo '</div><div class="columns">';
         $loopCount = 0;
     } else {
