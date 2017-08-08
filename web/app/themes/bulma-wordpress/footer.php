@@ -1,9 +1,3 @@
-            </div>
-            <div class="column">
-                <?php get_template_part('sidebar', get_post_format()); ?>
-            </div>
-
-        </div> <!-- /.columns -->
 
     </div> <!-- /.container -->
 
@@ -16,7 +10,8 @@
             <p> <strong>stamusic.org</strong> is a project by <a href="https://epatr.com">Eric Patrick</a></p>
             
             <div>
-                <a href="https://gitlab.com/epatr/"><i class="fa fa-gitlab"></i></a>
+                <a href="https://gitlab.com/epatr/stamusic.org"><i class="fa fa-gitlab"></i></a>
+                <a href="https://www.facebook.com/stamusic.org"><i class="fa fa-facebook"></i></a>
             </div>
             
         </div> <!-- /.content.has-text-centered -->
