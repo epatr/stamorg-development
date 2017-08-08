@@ -5,13 +5,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <?php $pageDescription = "At least I didn't name it Old City Music"; ?>
+<?php $pageDescription = "At least I didn't name it Old City Music"; ?>
     <meta name="description" content="<?= $pageDescription ?>" />
     <meta name="twitter:card" value="<?= $pageDescription ?>">
     <meta property="og:title" content="<?php wp_title(); ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://stamusic.org/" />
-    <?php // <meta property="og:image" content="http://example.com/image.jpg" /> ?>
+<?php // <meta property="og:image" content="http://example.com/image.jpg" /> ?>
     <meta property="og:description" content="<?= $pageDescription ?>" />
 
     <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
