@@ -72,8 +72,8 @@ h3.header__motto {
     }
 }
 
-.summary.columns:nth-child(3) {
-    clear: both;
+.summary>.column:nth-child(3n+1) {
+    clear: left;
 }
 
 .article__content {
