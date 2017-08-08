@@ -4,7 +4,7 @@ get_header();
 
 if (have_posts()) : ?>
 
-<div class="columns">
+<div class="summary columns">
 
 <?php
     while (have_posts()) :
