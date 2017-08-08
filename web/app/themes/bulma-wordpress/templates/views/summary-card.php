@@ -4,7 +4,7 @@
 if ( has_post_thumbnail() ) : ?>
   <div class="card-image">
     <figure class="image">
-      <?php the_post_thumbnail('open-graph-half'); ?>
+      <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('open-graph-half'); ?></a>
     </figure>
   </div>
 <?php endif; 
@@ -26,8 +26,8 @@ if ( has_post_thumbnail() ) : ?>
   </div>
 
   <footer class="card-footer">
-    <a class="card-footer-item">Read More</a>
-    <a class="card-footer-item">0 Comments</a>
+    <a href="<?php the_permalink() ?>" class="card-footer-item">Read More</a>
+    <a href="<?php comments_link(); ?>" class="card-footer-item">0 Comments</a>
   </footer>
 
 </div>
