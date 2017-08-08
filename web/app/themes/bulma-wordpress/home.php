@@ -6,7 +6,7 @@ if (have_posts()) : ?>
 
 <?php $loopCount = 0; ?>
 
-<div class="summary columns">
+<div class="summary columns is-multiline">
 
 <?php
     while (have_posts()) :
@@ -18,14 +18,6 @@ if (have_posts()) : ?>
 ?>
 </div>
 <?php
-
-// we need to get the loop count and either increment it or reset it
-    if ($loopCount == 2) {
-        echo '</div><div class="summary columns">';
-        $loopCount = 0;
-    } else {
-        $loopCount++;
-    }
 
     endwhile;
 
