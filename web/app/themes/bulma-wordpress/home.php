@@ -4,11 +4,12 @@ get_header();
 
 if (have_posts()) : ?>
 
+<?php $loopCount = 0; ?>
+
 <div class="summary columns">
 
 <?php
     while (have_posts()) :
-
         the_post();
 ?>
 <div class="column is-one-third">
@@ -17,6 +18,14 @@ if (have_posts()) : ?>
 ?>
 </div>
 <?php
+
+// we need to get the loop count and either increment it or reset it
+    if ($loopCount == 2) {
+        echo '</div><div class="columns">';
+        $loopCount = 0;
+    } else {
+        $loopCount++;
+    }
 
     endwhile;
 
