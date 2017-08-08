@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
     </div>
     <div class="navbar-menu" id="navMenu">
-        <div class="navbar-start">
+        <div class="navbar-start has-text-centered">
             <a href="/venue/" class="navbar-item">Venues</a>
             <a href="/artist/" class="navbar-item">Bands</a>
             <a href="/about/" class="navbar-item">About</a>
