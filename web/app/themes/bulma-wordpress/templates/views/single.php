@@ -23,3 +23,6 @@ if ( has_post_thumbnail() ) : ?>
 <?php if ( is_singular('event') ) : ?>
     <?php get_template_part('templates/snippets/event-information'); ?>
 <?php endif ?>
+
+
+<?php comments_template(); ?>
