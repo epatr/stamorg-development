@@ -2,23 +2,26 @@
 
 get_header();
 
-?>
+if (have_posts()) : ?>
 
-<article>
+<div class="section">
 
 <?php
-if (have_posts()) :
     while (have_posts()) :
-        the_post();
-?>
-        <?php get_template_part('templates/views/summary', get_post_format()); ?>
 
-</article>
-        
-<?php
+        the_post();
+
+        get_template_part('templates/views/summary', get_post_format());
+
     endwhile;
 
     get_template_part('templates/snippets/pagination');
+
+    ?>
+
+</div>
+
+<?php
 
 endif;
 
