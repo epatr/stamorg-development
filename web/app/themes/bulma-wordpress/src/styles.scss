@@ -15,16 +15,9 @@ Author URI: https://epatr.com
 
 @import "sass/font-awesome";
 
-// .content { 
-//     padding: 0 1em;
-// }
-
 body {
     font-display: swap;
 }
-// .section {
-//      padding-top: 5.25rem;
-// }
 
 p {
     overflow-wrap: break-word;
@@ -37,11 +30,6 @@ p {
 .article {
     margin-bottom: 2em;
 }
-
-// .title {
-// }
-// .subtitle {
-// }
 
 body > .header h2 {
     font-weight: 400;
@@ -104,24 +92,6 @@ aside.menu {
 
 .navbar {
     @extend .hero.is-light.is-bold;
-    // position: fixed;
-    // width: 100%;
-    // z-index: 1001;
-    // .navbar-item {
-    //     color: #fff;
-    // }
-    // .navbar-burger {
-    //     &:hover {
-    //         background-color: inherit;
-    //     }
-    //     span {
-    //             background-color: #fff;
-    //         }
-    // }
-    
-    
-    // &-start {
-    // }
 
     // End of the navbar
     &-end {
@@ -141,6 +111,10 @@ aside.menu {
     }
     font-family: $family-headers;
     text-transform: uppercase;
+}
+
+.summary .card {
+    height: 100%;
 }
 
 .footer {

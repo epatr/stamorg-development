@@ -7658,6 +7658,9 @@ aside.menu {
   .navbar-brand .navbar-title, .navbar-menu .navbar-title {
     font-weight: 700; }
 
+.summary .card {
+  height: 100%; }
+
 .footer {
   padding-bottom: 3rem; }
 
