@@ -1,4 +1,3 @@
-<div class="card">
 
 <?php 
 if ( has_post_thumbnail() ) : ?>
@@ -29,5 +28,3 @@ if ( has_post_thumbnail() ) : ?>
     <a href="<?php the_permalink() ?>" class="card-footer-item">Read More</a>
     <a href="<?php comments_link(); ?>" class="card-footer-item"><?php comments_number( '0 comments', '1 comment', '% responses' ); ?></a>
   </footer>
-
-</div>

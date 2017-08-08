@@ -10,7 +10,7 @@
             <p> <strong>stamusic.org</strong> is a project by <a href="https://epatr.com">Eric Patrick</a></p>
             
             <div>
-                <a href="https://gitlab.com/epatr/stamusic.org"><i class="fa fa-gitlab"></i></a>
+                <span class="icon"><a href="https://gitlab.com/epatr/stamusic.org"><i class="fa fa-gitlab"></i></a></span>
             </div>
             
         </div> <!-- /.content.has-text-centered -->
