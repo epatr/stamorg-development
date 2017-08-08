@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <nav class="navbar is-mobile">
     <div class="navbar-brand">
-        <a href="/" class="navbar-item navbar-title">stamusic.org</a>
+        <a href="/" class="navbar-item navbar-title">St. Augustine Music Project</a>
         <a href="/event/" class="navbar-item">Shows</a>
         <div class="navbar-burger" data-target="navMenu">
             <span></span>
