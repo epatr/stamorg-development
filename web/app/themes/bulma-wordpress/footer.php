@@ -1,3 +1,9 @@
+            </div>
+            <div class="column">
+                <?php get_template_part('sidebar', get_post_format()); ?>
+            </div>
+
+        </div> <!-- /.columns -->
 
     </div> <!-- /.container -->
 
