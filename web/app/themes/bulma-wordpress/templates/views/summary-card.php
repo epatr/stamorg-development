@@ -10,11 +10,11 @@ if ( has_post_thumbnail() ) : ?>
 <?php endif; 
 ?>
 
-  <header class="card-header">
-    <p class="card-header-title">
-      <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
-    </p>
-  </header>
+<header class="card-header">
+    <a href="<?php the_permalink() ?>">
+        <p class="card-header-title"><?php the_title(); ?></p>
+    </a>
+</header>
 
   <div class="card-content">
 
