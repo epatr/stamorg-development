@@ -3,7 +3,7 @@
 <?php 
 if ( has_post_thumbnail() ) : ?>
 <div class="has-text-centered image">
-	<?php the_post_thumbnail('open-graph-half'); ?>
+	<?php the_post_thumbnail('open-graph'); ?>
 </div>
 <?php endif; 
 ?>
