@@ -3,14 +3,10 @@
 <?php 
 if ( has_post_thumbnail() ) : ?>
 <div class="has-text-centered image">
-	<?php the_post_thumbnail('open-graph'); ?>
+	<?php the_post_thumbnail('open-graph-half'); ?>
 </div>
 <?php endif; 
 ?>
-
-<?php if ( !is_page() && !is_singular('event') && !is_singular('venue') ) : ?>
-    <div class="article__metadata">Posted <span><?php echo get_the_date(); ?></span> by <?php the_author_posts_link(); ?> <?php if(get_the_category()): echo ' in ' , the_category(); endif; ?></div>
-<?php endif; ?>
 
 <div class="article__content">
     <?php the_content(); ?>
@@ -24,5 +20,10 @@ if ( has_post_thumbnail() ) : ?>
     <?php get_template_part('templates/snippets/event-information'); ?>
 <?php endif ?>
 
+<?php if ( !is_page() && !is_singular('event') && !is_singular('venue') ) : ?>
+    <div class="article__metadata">Posted <span><?php echo get_the_date(); ?></span> by <?php the_author_posts_link(); ?> <?php if(get_the_category()): echo ' in ' , the_category(); endif; ?></div>
+<?php endif; ?>
+
+<hr> 
 
 <?php comments_template(); ?>
