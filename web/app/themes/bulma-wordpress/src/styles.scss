@@ -40,28 +40,36 @@ body > .header h2 {
 h3.header__motto {
     margin-bottom: 0;
 }
-.article > h2 {
-    margin-bottom: .25em !important;
-}
 
-.article__metadata {
-    margin-bottom: .5em;
-    text-transform: uppercase;
-    color: $grey;
-    font-size: $size-7;
-    
-    ul.post-categories {
-        display: inline;
-        list-style-type: none;
-        margin: 0;
-        li {
+
+article {
+
+    .article__metadata {
+        margin-bottom: .5em;
+        text-transform: uppercase;
+        color: $grey;
+        font-size: $size-7;
+        
+        ul.post-categories {
             display: inline;
+            list-style-type: none;
+            margin: 0;
+            li {
+                display: inline;
+            }
         }
     }
+    .image {
+        padding-bottom: 2em;
+    }
+    .article__content {
+        padding-bottom: 3rem;
+    }
+
 }
 
-.article__content {
-    padding: 3rem 0;
+.article > h2 {
+    margin-bottom: .25em !important;
 }
 
 .map-embed {
@@ -74,7 +82,7 @@ h3.header__motto {
 }
 
 ul.menu-wp_nav_menu {
-        @extend .menu-list;
+    @extend .menu-list;
 }
 .menu ul {
     margin-left: 0;

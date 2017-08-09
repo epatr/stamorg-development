@@ -7631,7 +7631,7 @@ h3.header__motto {
       display: inline; }
 
 .article__content {
-  padding: 3rem 0; }
+  padding: 1rem 0 3rem 0; }
 
 .map-embed {
   height: 20em;
