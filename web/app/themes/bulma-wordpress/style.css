@@ -7615,23 +7615,26 @@ body > .header h2 {
 h3.header__motto {
   margin-bottom: 0; }
 
-.article > h2 {
-  margin-bottom: .25em !important; }
-
-.article__metadata {
+article .article__metadata {
   margin-bottom: .5em;
   text-transform: uppercase;
   color: #7a7a7a;
   font-size: 0.75rem; }
-  .article__metadata ul.post-categories {
+  article .article__metadata ul.post-categories {
     display: inline;
     list-style-type: none;
     margin: 0; }
-    .article__metadata ul.post-categories li {
+    article .article__metadata ul.post-categories li {
       display: inline; }
 
-.article__content {
-  padding: 1rem 0 3rem 0; }
+article .image {
+  padding-bottom: 2em; }
+
+article .article__content {
+  padding-bottom: 3rem; }
+
+.article > h2 {
+  margin-bottom: .25em !important; }
 
 .map-embed {
   height: 20em;
