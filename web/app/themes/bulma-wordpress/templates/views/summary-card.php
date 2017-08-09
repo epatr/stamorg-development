@@ -12,7 +12,7 @@ if ( has_post_thumbnail() ) : ?>
 
   <header class="card-header">
     <p class="card-header-title">
-      <?php the_title(); ?>
+      <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
     </p>
   </header>
 
