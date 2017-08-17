@@ -6,7 +6,7 @@ get_header();
 
 <h1>The St. Augustine Music Project</h1>
 
-<p>Hello, and welcome to the St. Augustine Music Project website. This site was created as a way to document and give exposure to the wonderful music scene of St. Augustine, FL. Musicians here have a very strong do-it-yourself attitude, and this project is no exception. It was coded from a home office in downtown St. Augustine and contains no tracking software, advertisements, or any other horrors that sites like Facebook and Instagram thrive on.</p>
+<p>Hello, and welcome to the St. Augustine Music Project website. This was created in the summer of 2017 as a way to document and give exposure to the wonderful music scene located in the country's oldest city. Musicians here have a very healthy do-it-yourself attitude, and this project is no exception. It was coded by hand from a home office in downtown St. Augustine, and contains no tracking software, advertisements, or any other horrors that sites like Facebook and Instagram thrive on.</p>
 <p>The project is still in its very early stages, so please bookmark us and check back often. If you're interested in helping out, please check out the <a href="/about">about</a> section to learn more.</p>
 
 <hr>
