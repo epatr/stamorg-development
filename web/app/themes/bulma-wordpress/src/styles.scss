@@ -61,6 +61,8 @@ article {
     }
     .image {
         padding-bottom: 2em;
+        max-height: 630px;
+        overflow: hidden;
     }
     .article__content {
         padding-bottom: 3rem;
@@ -127,6 +129,9 @@ aside.menu {
     flex-direction: column;
     div {
         flex: 1;
+    }
+    figure {
+        margin: 0;
     }
 }
 
