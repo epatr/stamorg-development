@@ -32,6 +32,12 @@ function bulmawordpress_excerpt_more($more) {
 }
 add_filter( 'excerpt_more', 'bulmawordpress_excerpt_more' );
 
+// Control the <!--more--> text
+function modify_read_more_link() {
+    return ' <a href="' . get_permalink() . '">More...</a>';
+}
+add_filter('the_content_more_link', 'modify_read_more_link');
+
 // Disable emoji support
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
