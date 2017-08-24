@@ -16,7 +16,9 @@
             <p> <strong>stamusic.org</strong> is a project by <a href="https://epatr.com">Eric Patrick</a></p>
             
             <div>
-                <span class="icon"><a href="https://gitlab.com/epatr/stamusic.org"><i class="fa fa-gitlab"></i></a></span>
+                <span class="icon"><a href="https://gitlab.com/epatr/"><i class="fa fa-gitlab"></i></a></span>
+                <span class="icon"><a href="https://github.com/epatr/"><i class="fa fa-github"></i></a></span>
+                <span class="icon"><a href="https://twitter.com/ericpatr"><i class="fa fa-twitter"></i></a></span>
             </div>
             
         </div> <!-- /.content.has-text-centered -->
