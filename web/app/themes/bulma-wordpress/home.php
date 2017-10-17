@@ -4,11 +4,6 @@ get_header();
 
 ?>
 
-<h1>The St. Augustine Music Project</h1>
-
-<p>Hello, and welcome to the St. Augustine Music Project! On this site you will find information about upcoming shows and events going on in St. Augustine, FL. The site is in active development and will be changing rapidly over time. Please add us to your bookmarks and check back regularly! Enjoy.</p>
-<hr>
-
 <h3>Latest News</h3>
 
 <?php

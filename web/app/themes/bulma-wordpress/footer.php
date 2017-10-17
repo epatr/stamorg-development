@@ -13,13 +13,7 @@
 <footer class="footer section">
     <div class="container">
         <div class="content has-text-centered">
-            <p> <strong>stamusic.org</strong> is a project by <a href="https://epatr.com">Eric Patrick</a></p>
-            
-            <div>
-                <span class="icon"><a href="https://gitlab.com/epatr/"><i class="fa fa-gitlab"></i></a></span>
-                <span class="icon"><a href="https://github.com/epatr/"><i class="fa fa-github"></i></a></span>
-                <span class="icon"><a href="https://twitter.com/ericpatr"><i class="fa fa-twitter"></i></a></span>
-            </div>
+            <p> &copy; 2017 <strong>stamusic.org</strong> | A project by <a href="https://epatr.com">Eric Patrick</a></p>
             
         </div> <!-- /.content.has-text-centered -->
             
